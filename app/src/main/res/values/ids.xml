@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="read_more_link" type="id" />
+    <item name="open_in_browser_link" type="id" />
+</resources>

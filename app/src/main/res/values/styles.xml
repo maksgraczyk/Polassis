@@ -1,0 +1,34 @@
+<resources>
+    <color name="primary">#8bc34a</color>
+    <color name="primaryDark">#689f38</color>
+    <color name="accent">#558b2f</color>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:listSeparatorTextViewStyle">@style/ListSeparatorTextView</item>
+    </style>
+
+    <style name="DialogTheme" parent="Base.Theme.AppCompat.Light.Dialog">
+
+    </style>
+
+    <style name="ListSeparatorTextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/accent</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+
+    <style name="GreenActionBarTheme" parent="AppTheme">
+        <item name="actionBarStyle">@style/MyActionBarStyle</item>
+    </style>
+
+    <style name="MyActionBarStyle" parent="AppTheme">
+        <item name="background">@color/primaryDark</item>
+        <item name="displayOptions">showTitle</item>
+    </style>
+</resources>

@@ -1,0 +1,1629 @@
+<Syntax>
+	<Function>
+		<Identifier>speakPhrase</Identifier>
+		<Category>0</Category>
+		<Either>
+			<Word>powiedz</Word>
+			<Word>powiedzieć</Word>
+			<Word>powiesz</Word>
+			<Word>powiedział</Word>
+			<Word>powiedziała</Word>
+			<Word>mów</Word>
+			<Word>mówić</Word>
+			<Word>mówisz</Word>
+			<Word>mówił</Word>
+			<Word>mówiła</Word>
+		</Either>
+		<Examples>
+
+		</Examples>
+		<ManualExamples>
+			<ManualExample>powiedz ja mam kota</ManualExample>
+			<ManualExample>mów sąsiedzi są obok mnie</ManualExample>
+			<ManualExample>powiedz cześć</ManualExample>
+			<ManualExample>możesz powiedzieć hej</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>readMessage</Identifier>
+		<Category>2</Category>
+		<Either>
+		<AllCompulsory>
+			<Either>
+				<Part>czyta</Part>
+				<Part>zobacz</Part>
+			</Either>
+			<Either>
+				<Part>now</Part>
+				<Part>ostatni</Part>
+			</Either>
+			<Either>
+				<Part>sms</Part>
+				<Part>wiadomoś</Part>
+			</Either>
+		</AllCompulsory>
+		</Either>
+		<Examples>
+			<Example>ostatni sms</Example>
+			<Example>ostatni esemes</Example>
+			<Example>czytaj nową wiadomość</Example>
+			<Example>przeczytaj ostatni sms</Example>
+			<Example>przeczytaj ostatnią wiadomość</Example>
+			<Example>jaką mam ostatnią wiadomość</Example>
+			<Example>jakiego mam nowego esemesa</Example>
+			<Example>przeczytaj ostatniego esemesa</Example>
+			<Example>najnowsza wiadomość</Example>
+			<Example>najnowszy sms</Example>
+		</Examples>
+		<ManualExamples>
+			<ManualExample>przeczytaj ostatnego SMS-a</ManualExample>
+			<ManualExample>ostatnia wiadomość</ManualExample>
+			<ManualExample>czytaj najnowszego SMS-a</ManualExample>
+			<ManualExample>jaką mam nową wiadomość</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>lastIncomingCall</Identifier>
+		<Category>0</Category>
+		<Either>
+		<AllCompulsory>
+			<Part>kto</Part>
+			<Part>dzwoni</Part>
+		</AllCompulsory>
+		<AllCompulsory>
+			<Part>ostatni</Part>
+			<Part>połaczeni</Part>
+			<Part>przychodząc</Part>
+		</AllCompulsory>
+		</Either>
+		<Examples>
+            <Example>kto ostatnio dzwonił</Example>
+            <Example>kto dzwonił</Example>
+            <Example>najnowsze połączenie przychodzące</Example>
+            <Example>połączenie przychodzące</Example>
+            <Example>kto do mnie dzwonił ostatnio</Example>
+            <Example>kto do mnie dzwonił w ostatnim czasie</Example>
+            <Example>kto dzwonił niedawno</Example>
+            <Example>niedawne połączenie przychodzące</Example>
+            <Example>ostatnie połączenie przychodzące</Example>
+            <Example>z kim ostatnio rozmawiałem</Example>
+		</Examples>
+		<ManualExamples>
+            <ManualExample>kto do mnie ostatnio dzwonił</ManualExample>
+            <ManualExample>ostatnie połączenie przychodzące</ManualExample>
+            <ManualExmaple>kto dzwonił</ManualExmaple>
+            <ManualExample>z kim ostatnio rozmawiałem</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>lastOutcomingCall</Identifier>
+		<Category>0</Category>
+		<Either>
+		<AllCompulsory>
+			<Part>kogo</Part>
+			<Part>dzwoni</Part>
+		</AllCompulsory>
+		<AllCompulsory>
+			<Part>ostatni</Part>
+			<Part>połączeni</Part>
+			<Part>wychodząc</Part>
+		</AllCompulsory>
+		</Either>
+		<Examples>
+            <Example>do kogo dzwoniłem</Example>
+            <Example>do kogo dzwoniłam</Example>
+            <Example>ostatnie połączenie wychodzące</Example>
+            <Example>najnowsze połączenie wychodzące</Example>
+            <Example>do kogo telefonowałem ostatnio</Example>
+            <Example>do kogo ostatnio dzwoniłam</Example>
+            <Example>do kogo miałem ostatnie połączenie</Example>
+            <Example>do kogo ostatnie połączenie</Example>
+            <Example>połączenie wychodzące</Example>
+            <Example>do kogo było ostatnie połączenie</Example>
+		</Examples>
+		<ManualExamples>
+            <ManualExample>do kogo dzwoniłem</ManualExample>
+            <ManualExample>ostatnie połączenie wychodzące</ManualExample>
+            <ManualExample>do kogo było ostatnie połączenie</ManualExample>
+            <ManualExample>do kogo telefonowałem ostatnio</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>lastCall</Identifier>
+		<Category>0</Category>
+		<Either>
+		<AllCompulsory>
+			<Part>ostatni</Part>
+			<Part>połączeni</Part>
+		</AllCompulsory>
+		</Either>
+		<Examples>
+            <Example>ostatni telefon</Example>
+            <Example>ostatnie połączenie</Example>
+            <Example>jakie było ostatnie połączenie</Example>
+            <Example>najnowsze połączenie</Example>
+            <Example>najnowszy telefon</Example>
+            <Example>jaki miałem ostatni telefon</Example>
+            <Example>możesz powiedzieć jakie było najnowsze połączenie</Example>
+            <Example>nowe połączenie</Example>
+            <Example>podaj ostatnie połączenie</Example>
+            <Example>podaj najnowsze połączenie</Example>
+		</Examples>
+		<ManualExamples>
+            <ManualExample>ostatnie połączenie</ManualExample>
+            <ManualExample>jaki był ostatni telefon</ManualExample>
+            <ManualExample>najnowsze połączenie</ManualExample>
+            <ManualExample>jakie miałem połączenie ostatnio</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>mail</Identifier>
+		<Category>0</Category>
+		<Either>
+		<AllCompulsory>
+			<Either>
+				<Part>wyślij</Part>
+				<Part>wysłać</Part>
+				<Part>napisz</Part>
+				<Part>napisać</Part>
+				<Part>pisz</Part>
+				<Part>pisać</Part>
+			</Either>
+			<Part>mail</Part>
+		</AllCompulsory>
+		</Either>
+		<Examples>
+            <Example>napisz maila</Example>
+            <Example>wyślij maila</Example>
+            <Example>napisz wiadomość e-mail do</Example>
+            <Example>wyślij wiadomość e-mail do</Example>
+            <Example>możesz napisać e-maila do</Example>
+            <Example>wyślij maila do</Example>
+            <Example>napisz maila do</Example>
+            <Example>możesz wysłać maila do</Example>
+            <Example>pisz e-mail</Example>
+            <Example>ślij e-maila</Example>
+		</Examples>
+		<ManualExamples>
+            <ManualExample>wyślij e-maila</ManualExample>
+            <ManualExample>napisz wiadomość e-mail</ManualExample>
+            <ManualExample>możesz wysłać maila</ManualExample>
+            <ManualExample>napisz mail</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>showAllNotes</Identifier>
+		<Category>0</Category>
+		<Either>
+		<AllCompulsory>
+			<Either>
+				<Part>jakie</Part>
+				<Part>jaką</Part>
+			</Either>
+			<Part>notatk</Part>
+		</AllCompulsory>
+		<AllCompulsory>
+			<Part>notatk</Part>
+			<Either>
+				<Part>wszystkie</Part>
+				<Word>każde</Word>
+				<Word>każdą</Word>
+				<Word>wszelką</Word>
+				<Word>wszelkie</Word>
+			</Either>
+			<Either>
+				<Part>pokaż</Part>
+				<Part>przeczyta</Part>
+				<Part>pokazać</Part>
+				<Part>otwórz</Part>
+				<Part>otworzyć</Part>
+			</Either>
+		</AllCompulsory>
+		</Either>
+		<Examples>
+            <Example>wszystkie notatki</Example>
+            <Example>notatki</Example>
+            <Example>pokaż listę notatek</Example>
+            <Example>jakie mam notatki</Example>
+            <Example>pokaż wszystkie notatki</Example>
+            <Example>powiedz listę notatek</Example>
+            <Example>możesz pokazać notatki</Example>
+            <Example>możesz przedstawić listę notatek</Example>
+            <Example>lista notatek</Example>
+            <Example>lista wszelkich notatek</Example>
+		</Examples>
+		<ManualExamples>
+            <ManualExample>pokaż wszystkie notatki</ManualExample>
+            <ManualExample>jakie mam notatki</ManualExample>
+            <ManualExample>możesz przedstawić listę notatek</ManualExample>
+            <ManualExample>wszystkie notatki</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>editNote</Identifier>
+		<Category>0</Category>
+		<Either>
+		<AllCompulsory>
+			<Either>
+				<Part>notatk</Part>
+				<Word>nota</Word>
+				<Word>notę</Word>
+			</Either>
+			<Either>
+				<Part>zmień</Part>
+				<Part>zmienić</Part>
+				<Part>edytuj</Part>
+				<Part>edytować</Part>
+				<Part>popraw</Part>
+			</Either>
+		</AllCompulsory>
+		</Either>
+		<Examples>
+            <Example>zmień notatkę</Example>
+            <Example>popraw notatkę</Example>
+            <Example>edytuj notatkę</Example>
+            <Example>chcę zmienić notatkę</Example>
+            <Example>zmień notę</Example>
+            <Example>edytuj notę o tytule</Example>
+            <Example>możesz zmienić notatkę o tytule</Example>
+            <Example>popraw notatkę o tytule</Example>
+            <Example>popraw notę</Example>
+            <Example>chcę poprawić notatkę</Example>
+		</Examples>
+		<ManualExamples>
+            <ManualExample>zmień notatkę "Test"</ManualExample>
+            <ManualExample>edytuj notatkę "Hej"</ManualExample>
+            <ManualExample>chcę poprawić notatkę o tytule "Ważne"</ManualExample>
+            <ManualExample>popraw notę "Lista zakupów"</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>deleteNote</Identifier>
+		<Category>0</Category>
+		<Either>
+		<AllCompulsory>
+			<Either>
+				<Part>notatk</Part>
+				<Word>nota</Word>
+				<Word>notę</Word>
+			</Either>
+			<Either>
+				<Word>usuń</Word>
+				<Word>kasuj</Word>
+				<Word>kasować</Word>
+				<Word>usunąć</Word>
+				<Word>wyrzuć</Word>
+				<Word>wyrzucić</Word>
+			</Either>
+		</AllCompulsory>
+		</Either>
+		<Examples>
+            <Example>usuń notatkę</Example>
+            <Example>skasuj notatkę</Example>
+            <Example>wyrzuć notę o tytule</Example>
+            <Example>możesz wyrzucić notatkę o tytule</Example>
+            <Example>kasuj notatkę o tytule</Example>
+            <Exmaple>usuń notę</Exmaple>
+            <Example>wyrzuć notatkę</Example>
+            <Example>chcę usunąć notatkę</Example>
+            <Example>chcę usunąć notatkę o tytule</Example>
+            <Example>możesz skasować notatkę</Example>
+		</Examples>
+		<ManualExamples>
+            <ManualExample>usuń notatkę "Test"</ManualExample>
+            <ManualExample>chcę skasować notę "Ważne"</ManualExample>
+            <ManualExample>możesz skasować notatkę "Lista"</ManualExample>
+            <ManualExample>wyrzuć notatkę "Siema"</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>showNote</Identifier>
+		<Category>0</Category>
+		<Either>
+		<AllCompulsory>
+			<Either>
+				<Part>notatk</Part>
+				<Word>nota</Word>
+				<Word>notę</Word>
+			</Either>
+			<Either>
+				<Part>pokaż</Part>
+				<Part>przeczyta</Part>
+				<Part>pokazać</Part>
+				<Part>otwórz</Part>
+				<Part>otworzyć</Part>
+			</Either>
+		</AllCompulsory>
+		</Either>
+		<Examples>
+            <Example>pokaż notatkę</Example>
+            <Example>przeczytaj notatkę o tytule</Example>
+            <Exmaple>czytaj notę</Exmaple>
+            <Example>otwórz notatkę</Example>
+            <Example>chcę zobaczyć notatkę</Example>
+            <Example>pokaż notę o tytule</Example>
+            <Example>czytaj notatkę</Example>
+            <Example>możesz otworzyć notatkę</Example>
+            <Example>otwórz notę o tytule</Example>
+            <Example>przeczytaj notatkę</Example>
+		</Examples>
+		<ManualExamples>
+            <ManualExample>czytaj notatkę "Lista zakupów"</ManualExample>
+            <ManualExample>przeczytaj notatkę "Siema"</ManualExample>
+            <ManualExample>chcę zobaczyć notę "Hej"</ManualExample>
+            <ManualExample>możesz otworzyć notatkę o tytule "Ważne"</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>createNote</Identifier>
+		<Category>0</Category>
+		<Either>
+			<Part>notatk</Part>
+			<Word>nota</Word>
+			<Word>notę</Word>
+		</Either>
+		<Examples>
+            <Example>nowa notatka</Example>
+            <Example>utwórz notatkę o tytule</Example>
+            <Example>chcę napisać notatkę</Example>
+            <Example>napisz notę</Example>
+            <Example>stwórz notę</Example>
+            <Example>możesz utworzyć notatkę o tytule</Example>
+            <Example>pisz notatkę o tytule</Example>
+            <Example>stwórz notatkę</Example>
+            <Example>nowa nota</Example>
+            <Example>chcę stworzyć nową notatkę</Example>
+		</Examples>
+		<ManualExamples>
+            <ManualExample>napisz notatkę "Siema"</ManualExample>
+            <ManualExample>stwórz notatkę</ManualExample>
+            <ManualExample>chcę napisać notę</ManualExample>
+            <ManualExample>możesz utworzyć notatkę "Ważne"</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>sendMessage</Identifier>
+		<Category>0</Category>
+		<Either>
+			<Part>wyśli</Part>
+			<Part>wysłać</Part>
+			<Part>napisz</Part>
+			<Part>napisać</Part>
+			<AllCompulsory>
+				<Either>
+					<Part>pisz</Part>
+					<Part>pisać</Part>
+				</Either>
+				<Either>
+					<Part>sms</Part>
+					<Part>esemes</Part>
+				</Either>
+			</AllCompulsory>
+			<Part>sms</Part>
+			<Part>esemes</Part>
+		</Either>
+		<Examples>
+			<Example>wyślij esemesa do</Example>
+			<Example>napisz do</Example>
+			<Example>napisz esemesa do</Example>
+			<Example>wyślij wiadomość do</Example>
+			<Example>daj znać</Example>
+			<Example>pisz wiadomość do</Example>
+			<Example>napisz sms do</Example>
+			<Example>ślij sms do</Example>
+			<Example>możesz napisać sms do</Example>
+			<Example>mógłbyś wysłać esemes do</Example>
+		</Examples>
+		<ManualExamples>
+			<ManualExample>napisz SMS-a do Jarka</ManualExample>
+			<ManualExample>pisz do Joli</ManualExample>
+			<ManualExample>czy możesz wysłać wiadomość do Józefa</ManualExample>
+			<ManualExample>wyślij do nauczyciela</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>takePhoto</Identifier>
+		<Category>0</Category>
+		<Either>
+			<Word>zdjęcie</Word>
+			<Word>selfie</Word>
+		</Either>
+		<Examples>
+            <Example>zrób zdjęcie</Example>
+            <Example>selfie</Example>
+            <Example>chcę selfie</Example>
+            <Example>nowe zdjęcie</Example>
+            <Example>pstryknij fotkę</Example>
+            <Example>zrób selfie</Example>
+            <Example>możesz wykonać zdjęcie</Example>
+            <Example>chcę zrobić sobie zdjęcie</Example>
+            <Example>nowe selfie</Example>
+            <Example>możesz zrobić selfie</Example>
+		</Examples>
+		<ManualExamples>
+            <ManualExample>wykonaj zdjęcie</ManualExample>
+            <ManualExample>pstryknij fotkę</ManualExample>
+            <ManualExample>możesz zrobić mi selfie</ManualExample>
+            <ManualExample>zrób zdjęcie</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>weatherForecast</Identifier>
+		<Category>0</Category>
+		<Either>
+			<Word>pogoda</Word>
+			<Word>pogodę</Word>
+			<Word>pogody</Word>
+			<Word>pogodzie</Word>
+			<Word>pogodą</Word>
+		</Either>
+		<Examples>
+            <Example>jaka pogoda będzie w</Example>
+            <Example>pogoda w</Example>
+            <Example>pogoda</Example>
+            <Example>prognoza pogody za tydzień w</Example>
+            <Example>jaka jest prognoza dla</Example>
+            <Example>prognoza pogody dla</Example>
+            <Example>możesz mi powiedzieć jaka będzie pogoda w</Example>
+            <Example>pogoda za dni w</Example>
+            <Example>prognoza na jutro</Example>
+            <Example>prognoza na pojutrze</Example>
+		</Examples>
+		<ManualExamples>
+            <ManualExample>pogoda w Gdańsku</ManualExample>
+            <ManualExample>jaka będzie pogoda jutro w Bydgoszczy</ManualExample>
+            <ManualExample>prognoza pogody na jutro dla Warszawy</ManualExample>
+            <ManualExample>jaka pogoda za tydzień Berlin</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>pauseResumeTimer</Identifier>
+		<Either>
+			<AllCompulsory>
+				<Either>
+					<Part>pauz</Part>
+					<Part>trzyma</Part>
+					<Part>znów</Part>
+					<Part>znow</Part>
+					<Part>znaw</Part>
+					<Part>z powrotem</Part>
+					<Part>jeszcze raz</Part>
+				</Either>
+				<Either>
+					<Part>minutnik</Part>
+					<Part>odlicz</Part>
+					<Part>wylicz</Part>
+				</Either>
+			</AllCompulsory>
+		</Either>
+		<Examples>
+			<Example>wstrzymaj minutnik</Example>
+			<Example>możesz zatrzymać odliczanie</Example>
+			<Example>pauza minutnika</Example>
+			<Example>włącz z powrotem minutnik</Example>
+			<Example>wznów minutnik</Example>
+			<Example>wznawiaj wyliczanie</Example>
+			<Example>chcę wznowić minutnik</Example>
+			<Example>możesz wznowić odliczanie</Example>
+			<Example>chcę zatrzymać minutnik</Example>
+			<Example>pauza odliczania</Example>
+		</Examples>
+		<ManualExamples>
+			<ManualExample>zatrzymaj minutnik</ManualExample>
+			<ManualExample>pauza odliczania</ManualExample>
+			<ManualExample>wznów minutnik</ManualExample>
+			<ManualExample>odliczaj z powrotem</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>timerRemaining</Identifier>
+		<Category>0</Category>
+		<Either>
+			<AllCompulsory>
+				<Part>czas</Part>
+				<Either>
+					<Word>ile</Word>
+					<Part>zosta</Part>
+					<Word>jeszcze</Word>
+					<Part>koniec</Part>
+					<Part>końc</Part>
+				</Either>
+			</AllCompulsory>
+			<AllCompulsory>
+				<Either>
+					<Part>stan</Part>
+					<Word>kiedy</Word>
+				</Either>
+				<Either>
+					<Part>minutnik</Part>
+					<Part>odlicz</Part>
+				</Either>
+				<Part>minutnik</Part>
+			</AllCompulsory>
+			<AllCompulsory>
+				<Word>ile</Word>
+				<Either>
+					<Word>jeszcze</Word>
+					<Part>zosta</Part>
+				</Either>
+			</AllCompulsory>
+		</Either>
+		<Examples>
+			<Example>ile czasu zostało</Example>
+			<Example>obecny stan minutnika</Example>
+			<Example>ile jeszcze</Example>
+			<Example>ile zostało jeszcze</Example>
+			<Example>pozostały czas</Example>
+			<Example>czas do końca minutnika</Example>
+			<Example>kiedy zadzwoni minutnik</Example>
+			<Example>ile zostało</Example>
+			<Example>kiedy skończy się minutnik</Example>
+			<Example>możesz powiedzieć ile czasu</Example>
+		</Examples>
+		<ManualExamples>
+			<ManualExample>ile czasu do końca minutnika</ManualExample>
+			<ManualExample>ile jeszcze mam czasu</ManualExample>
+			<ManualExample>kiedy minutnik</ManualExample>
+			<ManualExample>możesz powiedzieć kiedy zadzwoni minutnik</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>setTimer</Identifier>
+		<Category>0</Category>
+		<Either>
+			<AllCompulsory>
+				<Either>
+					<Word>daj</Word>
+					<Word>dać</Word>
+				</Either>
+				<Word>znać</Word>
+				<Either>
+					<Word>kiedy</Word>
+					<Word>gdy</Word>
+					<Word>za</Word>
+					<Word>po</Word>
+				</Either>
+			</AllCompulsory>
+			<Part>minutnik</Part>
+			<Part>odlicz</Part>
+			<Part>mierz</Part>
+		</Either>
+		<Examples>
+            <Example>daj znać za</Example>
+            <Example>ustaw minutnik</Example>
+            <Example>możesz dać znać gdy minie</Example>
+            <Example>minutnik za</Example>
+            <Example>odlicz</Example>
+            <Example>odlicz czas</Example>
+            <Example>chcę minutnik na</Example>
+            <Example>możesz ustawić minutnik na czas</Example>
+            <Example>odmierz czas</Example>
+            <Example>włącz minutnik</Example>
+		</Examples>
+		<ManualExamples>
+            <ManualExample>uruchom minutnik na 5 minut</ManualExample>
+            <ManualExample>odmierz 3 godziny 30 minut</ManualExample>
+            <ManualExample>możesz ustawić minutnik na 30 sekund</ManualExample>
+            <ManualExample>daj znać za godzinę</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>makeCall</Identifier>
+		<Category>0</Category>
+		<Either>
+			<Part>dzwoń</Part>
+			<Part>zadzwonić</Part>
+			<Part>połącz</Part>
+			<Part>skontakt</Part>
+		</Either>
+		<Examples>
+            <Example>zadzwoń do</Example>
+            <Example>wykonaj telefon do</Example>
+            <Example>skontaktuj mnie z</Example>
+            <Example>dzwoń pod numer</Example>
+            <Example>możesz zadzwonić do</Example>
+            <Example>telefon dla</Example>
+            <Example>chcę zatelefonować</Example>
+            <Example>chcę zadzwonić pod</Example>
+            <Example>dzwonić do</Example>
+            <Example>zadzwoń pod numer</Example>
+		</Examples>
+		<ManualExamples>
+            <ManualExample>zadzwoń do Jarosława</ManualExample>
+            <ManualExample>skontaktuj mnie z Jackiem</ManualExample>
+            <ManualExample>chcę zadzwonić pod numer 123456</ManualExample>
+            <ManualExample>dzwoń do Agaty</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>doCalculations</Identifier>
+		<Category>0</Category>
+		<Either>
+			<AllCompulsory>
+				<Digit />
+				<Either>
+					<MathematicalSymbol />
+					<Part>razy</Part>
+					<Part>plus</Part>
+					<Part>dodać</Part>
+					<Part>minus</Part>
+					<Part>odjąć</Part>
+					<Part>podzielić</Part>
+					<Part>dzielon</Part>
+					<Part>przemnożon</Part>
+					<Part>pomnożyć</Part>
+					<Part>pomnożon</Part>
+					<Part>podzielić</Part>
+					<Part>przemnożyć</Part>
+					<Part>potęg</Part>
+					<Part>kwadrat</Part>
+					<Part>sześcian</Part>
+				</Either>
+			</AllCompulsory>
+		</Either>
+		<Examples>
+
+		</Examples>
+		<ManualExamples>
+            <ManualExample>dwa plus dwa</ManualExample>
+            <ManualExample>siedem do kwadratu przemnożone przez cztery podzielić na sześć</ManualExample>
+            <ManualExample>pięć przecinek siedem odjąć osiem przecinek osiem</ManualExample>
+            <ManualExample>cztery razy siedem do potęgi trzeciej</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>whichDayOfWeekItWas</Identifier>
+		<Category>0</Category>
+		<Either>
+			<AllCompulsory>
+				<Digit />
+				<Either>
+					<Part>stycz</Part>
+					<Part>lut</Part>
+					<Part>mar</Part>
+					<Part>kwie</Part>
+					<Part>maj</Part>
+					<Part>czerw</Part>
+					<Part>lip</Part>
+					<Part>sierp</Part>
+					<Part>wrze</Part>
+					<Part>październik</Part>
+					<Part>listopad</Part>
+					<Part>grud</Part>
+				</Either>
+			</AllCompulsory>
+		</Either>
+		<Examples>
+
+		</Examples>
+		<ManualExamples>
+            <ManualExample>który to był 3 stycznia 2015 roku</ManualExample>
+            <ManualExample>którego będzie 7 grudnia</ManualExample>
+            <ManualExample>jaki dzień tygodnia był 11 maja 1999 roku</ManualExample>
+            <ManualExample>3 maja</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>playerControl</Identifier>
+		<Category>0</Category>
+		<Either>
+			<Part>pauz</Part>
+			<Part>wstrzyma</Part>
+			<Part>zatrzyma</Part>
+			<Part>wznów</Part>
+			<Part>wznow</Part>
+			<Part>wznawia</Part>
+			<Part>kontynu</Part>
+		</Either>
+		<Examples>
+
+		</Examples>
+		<ManualExamples>
+            <ManualExample>wznów odtwarzanie</ManualExample>
+            <ManualExample>kontynuuj</ManualExample>
+            <ManualExample>pauza</ManualExample>
+            <ManualExample>zatrzymaj muzykę</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>playerControl</Identifier>
+		<Category>1</Category>
+		<Either>
+			<Part>od nowa</Part>
+			<Part>jeszcze raz</Part>
+			<Part>powtórz</Part>
+			<Part>powtarz</Part>
+		</Either>
+		<Examples>
+            <Example>powtórz piosenkę</Example>
+            <Example>powtarzaj</Example>
+            <Example>możesz puścić od nowa</Example>
+            <Example>odtwórz jeszcze raz</Example>
+            <Example>muzyka od nowa</Example>
+            <Example>odtwórz utwór jeszcze raz</Example>
+            <Example>chcę piosenkę od nowa</Example>
+            <Example>włącz muzykę jeszcze raz</Example>
+            <Example>piosenka jeszcze raz</Example>
+            <Example>puść piosenkę od nowa</Example>
+		</Examples>
+		<ManualExamples>
+            <ManualExample>piosenka od nowa</ManualExample>
+            <ManualExample>odtwórz jeszcze raz</ManualExample>
+            <ManualExample>powtórz utwór</ManualExample>
+            <ManualExample>chcę posłuchać jeszcze raz</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>playerControl</Identifier>
+		<Category>2</Category>
+		<Either>
+			<Part>następn</Part>
+			<Part>kolejn</Part>
+		</Either>
+		<Examples>
+            <Example>następny utwór</Example>
+            <Example>odtwórz kolejną piosenkę</Example>
+            <Example>następny</Example>
+            <Example>kolejny</Example>
+            <Example>chcę następną muzykę</Example>
+            <Example>możesz puścić kolejny utwór</Example>
+            <Example>kolejna muzyka</Example>
+            <Example>chcę kolejny utwór</Example>
+            <Example>dalsze piosenki</Example>
+            <Example>odtwarzaj dalej</Example>
+		</Examples>
+		<ManualExamples>
+            <ManualExample>kolejna piosenka</ManualExample>
+            <ManualExample>chcę nastepny utwór</ManualExample>
+            <ManualExample>nastepny</ManualExample>
+            <ManualExample>kolejna muzyka</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>playerControl</Identifier>
+		<Category>3</Category>
+		<Either>
+			<Part>poprzedni</Part>
+			<Part>z powrotem</Part>
+		</Either>
+		<Examples>
+            <Example>poprzedni utwór</Example>
+            <Example>puść z powrotem</Example>
+            <Example>wróć do poprzedniej muzyki</Example>
+            <Example>poprzednia piosenka</Example>
+            <Example>chcę poprzedni utwór</Example>
+            <Example>włącz z powrotem piosenkę</Example>
+            <Example>możesz odtworzyć poprzednią piosenkę</Example>
+            <Example>możesz włączyć poprzedni utwór</Example>
+            <Example>piosenka z powrotem</Example>
+            <Example>poprzedni</Example>
+		</Examples>
+		<ManualExamples>
+            <ManualExample>poprzedni utwór</ManualExample>
+            <ManualExample>z powrotem</ManualExample>
+            <ManualExample>poprzednia muzyka</ManualExample>
+            <ManualExample>włącz poprzednią piosenkę</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>playMusic</Identifier>
+		<Category>0</Category>
+		<Either>
+			<Part>odtwórz</Part>
+			<Part>odtworz</Part>
+			<Part>odtwarz</Part>
+			<Part>puść</Part>
+			<Part>puśc</Part>
+			<AllCompulsory>
+				<Either>
+					<Part>włącz</Part>
+					<Part>otwórz</Part>
+					<Part>otworz</Part>
+					<Part>odpal</Part>
+				</Either>
+				<Either>
+					<Part>utw</Part>
+					<Part>muzyk</Part>
+					<Part>piosenk</Part>
+					<Part>gatun</Part>
+					<Part>album</Part>
+					<Part>wykonawc</Part>
+					<Part>artyst</Part>
+					<Part>list</Part>
+					<Part>zesp</Part>
+				</Either>
+			</AllCompulsory>
+		</Either>
+		<Examples>
+			<Example>odtwórz</Example>
+			<Example>włącz piosenkę</Example>
+			<Example>puść playlistę</Example>
+			<Example>odtwarzaj artystę</Example>
+			<Example>otwórz muzykę</Example>
+			<Example>możesz odtworzyć utwór</Example>
+			<Example>włącz utwór</Example>
+			<Example>puść gatunek</Example>
+			<Example>puść muzykę gatunku</Example>
+			<Example>chcę puścić</Example>
+		</Examples>
+		<ManualExamples>
+			<ManualExample>odtwórz Too Many Broken Hearts</ManualExample>
+			<ManualExample>włącz muzykę jazz</ManualExample>
+			<ManualExample>możesz puścić muzykę Czesława Mozila</ManualExample>
+			<ManualExample>odtwarzaj playlistę Moje piosenki</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>torch</Identifier>
+		<Category>0</Category>
+		<Either>
+			<Part>latark</Part>
+			<Part>światł</Part>
+			<Part>oświetl</Part>
+			<Part>diod</Part>
+		</Either>
+		<Examples>
+            <Example>włącz latarkę</Example>
+            <Example>dioda doświetlająca</Example>
+            <Example>chcę latarkę</Example>
+            <Example>nie chcę światła</Example>
+            <Example>włącz oświetlenie</Example>
+            <Example>możesz zaświecić diodą</Example>
+            <Example>możesz poświecić trochę</Example>
+            <Example>poświeć</Example>
+            <Example>chcę wyłączyć diodę</Example>
+            <Example>wyłącz latarkę</Example>
+		</Examples>
+		<ManualExamples>
+            <ManualExample>włącz latarkę</ManualExample>
+            <ManualExample>możesz włączyć latarkę</ManualExample>
+            <ManualExample>wyłącz diodę oświetlającą</ManualExample>
+            <ManualExample>nie chcę latarki</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>changeWifiBluetoothState</Identifier>
+		<Category>0</Category>
+		<Either>
+			<AllCompulsory>
+				<Either>
+					<Part>włącz</Part>
+					<Part>wyłącz</Part>
+				</Either>
+				<Either>
+					<Part>wifi</Part>
+					<Part>bluetooth</Part>
+					<Part>blutuch</Part>
+				</Either>
+			</AllCompulsory>
+		</Either>
+		<Examples>
+            <Example>włącz wi-fi</Example>
+            <Example>możesz włączyć sieć bezprzewodową</Example>
+            <Example>internet bezprzewodowy</Example>
+            <Example>wyłącz bluetooth</Example>
+            <Example>odpal bluetooth</Example>
+            <Example>możesz włączyć bluetooth</Example>
+            <Example>wyłącz wi-fi</Example>
+            <Example>włącz bluetooth</Example>
+            <Example>chcę bluetooth</Example>
+            <Example>chcę wi-fi</Example>
+		</Examples>
+		<ManualExamples>
+            <ManualExample>włącz Wi-Fi</ManualExample>
+            <ManualExample>włącz Bluetooth</ManualExample>
+            <ManualExample>możesz wyłączyć Wi-Fi</ManualExample>
+            <ManualExample>wyłącz Bluetooth</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>turnOffSilentMode</Identifier>
+		<Category>0</Category>
+		<Either>
+			<Part>odcisz</Part>
+			<AllCompulsory>
+				<Either>
+					<Part>dzwonek</Part>
+					<Part>dźwięk</Part>
+				</Either>
+				<Either>
+					<Part>przywró</Part>
+					<Part>włącz</Part>
+				</Either>
+			</AllCompulsory>
+			<AllCompulsory>
+				<Either>
+					<Part>cichy</Part>
+					<Part>cicho</Part>
+					<Part>cicha</Part>
+				</Either>
+				<Either>
+					<Part>wyłącz</Part>
+					<Word>nie</Word>
+				</Either>
+			</AllCompulsory>
+		</Either>
+		<Examples>
+            <Example>odcisz telefon</Example>
+            <Example>włącz wszystkie dźwięki</Example>
+            <Example>włącz dzwonek</Example>
+            <Example>wyłącz tryb cichy</Example>
+            <Example>cofnij wyciszenie telefonu</Example>
+            <Example>podnieś głośność</Example>
+            <Example>wyłącz cichy</Example>
+            <Example>możesz przywrócić dzwonek</Example>
+            <Example>chcę z powrotem dźwięki</Example>
+            <Example>odcisz urządzenie</Example>
+		</Examples>
+		<ManualExamples>
+            <ManualExample>wyłącz tryb cichy</ManualExample>
+            <ManualExample>odcisz dzwonek</ManualExample>
+            <ManualExample>odcisz</ManualExample>
+            <ManualExample>chcę włączyć dźwięk</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>turnOnSilentMode</Identifier>
+		<Category>0</Category>
+		<Either>
+			<Part>wycisz</Part>
+			<AllCompulsory>
+				<Part>włącz</Part>
+				<Part>cichy</Part>
+			</AllCompulsory>
+			<Part>cichy</Part>
+			<Part>cicho</Part>
+			<Part>cicha</Part>
+			<AllCompulsory>
+				<Part>wyłącz</Part>
+				<Either>
+					<Part>dźwięk</Part>
+					<Part>dzwonek</Part>
+				</Either>
+			</AllCompulsory>
+		</Either>
+		<Examples>
+            <Example>wycisz dzwonek</Example>
+            <Example>wycisz telefon</Example>
+            <Example>nie chcę żadnych dźwięków</Example>
+            <Example>wyłącz dzwonek</Example>
+            <Example>nie chcę dzwonka</Example>
+            <Example>włącz tryb cichy</Example>
+            <Example>niech telefon będzie cichy</Example>
+            <Example>bądź cicho</Example>
+            <Example>chcę wycisyzć telefon</Example>
+            <Example>chcę wyłączyć wszelkie dźwięki</Example>
+		</Examples>
+		<ManualExamples>
+            <ManualExample>włącz tryb cichy</ManualExample>
+            <ManualExample>wycisz telefon</ManualExample>
+            <ManualExample>wyłącz dźwięki</ManualExample>
+            <ManualExample>chcę wyciszyć dzwonek</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>openWebpage</Identifier>
+		<Category>0</Category>
+		<Either>
+			<AllCompulsory>
+				<URL />
+				<Either>
+					<AllCompulsory>
+						<Part>uruchom</Part>
+						<Prohibited>ponownie</Prohibited>
+					</AllCompulsory>
+					<Part>odpal</Part>
+					<Part>włącz</Part>
+					<Part>otwórz</Part>
+				</Either>
+			</AllCompulsory>
+		</Either>
+		<Examples>
+
+		</Examples>
+		<ManualExamples>
+            <ManualExample>otwórz www.onet.pl</ManualExample>
+            <ManualExample>możesz włączyć stronę google.com</ManualExample>
+            <ManualExample>uruchom yahoo.com</ManualExample>
+            <ManualExample>chcę włączyć ibm.com</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>runApplication</Identifier>
+		<Category>0</Category>
+		<Either>
+			<AllCompulsory>
+				<Part>uruchom</Part>
+				<Prohibited>ponownie</Prohibited>
+			</AllCompulsory>
+			<Part>odpal</Part>
+			<Part>włącz</Part>
+			<Part>otwórz</Part>
+		</Either>
+		<Examples>
+
+		</Examples>
+		<ManualExamples>
+            <ManualExample>uruchom Facebook</ManualExample>
+            <ManualExample>włącz Netflix</ManualExample>
+            <ManualExample>chcę włączyć aplikację Google</ManualExample>
+            <ManualExample>włącz Angry Birds</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>navigate</Identifier>
+		<Category>0</Category>
+		<Either>
+			<Part>prowadź</Part>
+			<Part>prowadz</Part>
+			<Part>jechać</Part>
+			<Part>jedź</Part>
+            <Part>nawig</Part>
+			<AllCompulsory>
+				<Either>
+					<Part>poka</Part>
+					<Part>wytycz</Part>
+				</Either>
+				<Part>tras</Part>
+			</AllCompulsory>
+		</Either>
+		<Examples>
+            <Example>jak dojść do</Example>
+            <Example>chcę pojechać do</Example>
+            <Example>nie znam trasy do</Example>
+            <Example>wytycz trasę do</Example>
+            <Example>nawiguj do</Example>
+            <Example>możesz poprowadzić do</Example>
+            <Example>znasz drogę do</Example>
+            <Example>włącz nawigację do</Example>
+            <Example>możesz włączyć nawigowanie do</Example>
+            <Example>prowadź do</Example>
+		</Examples>
+		<ManualExamples>
+            <ManualExample>jak dojechać do Warszawy, al. Ujazdowskie 1</ManualExample>
+            <ManualExample>prowadź do Jezior Wielkich</ManualExample>
+            <ManualExample>jaka jest trasa do Berlina</ManualExample>
+            <ManualExample>nawiguj do Gdańska</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>getLocation</Identifier>
+		<Category>0</Category>
+		<Either>
+			<AllCompulsory>
+				<Word>gdzie</Word>
+				<Either>
+					<Word>jestem</Word>
+					<AllCompulsory>
+						<Word>się</Word>
+						<Word>znajduję</Word>
+					</AllCompulsory>
+				</Either>
+			</AllCompulsory>
+		</Either>
+		<Examples>
+            <Example>gdzie jestem</Example>
+            <Example>gdzie jesteśmy</Example>
+            <Example>zgubiłem się</Example>
+            <Example>moja lokalizacja</Example>
+            <Example>gdzie się znajdujemy</Example>
+            <Example>nie znam swojego położenia</Example>
+            <Example>jakie jest położenie telefonu</Example>
+            <Example>gdzie znajduję się</Example>
+            <Example>nie wiem gdzie jestem</Example>
+            <Example>jaka jest moja lokalizacja</Example>
+		</Examples>
+		<ManualExamples>
+            <ManualExample>gdzie jestem</ManualExample>
+            <ManualExample>gdzie się znajduję</ManualExample>
+            <ManualExample>jaka jest moja lokalizacja</ManualExample>
+            <ManualExample>gdzie jesteśmy</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>showMap</Identifier>
+		<Category>0</Category>
+		<Either>
+			<AllCompulsory>
+				<Word>gdzie</Word>
+				<Either>
+					<AllCompulsory>
+						<Word>znajduje</Word>
+						<Word>się</Word>
+					</AllCompulsory>
+					<Word>jest</Word>
+					<Word>są</Word>
+					<Part>zlokalizowan</Part>
+				</Either>
+			</AllCompulsory>
+		</Either>
+		<Examples>
+            <Example>gdzie jest</Example>
+            <Example>gdzie jest położony</Example>
+            <Example>gdzie znajduje się</Example>
+            <Example>gdzie zlokalizowany jest</Example>
+            <Example>gdzie jest położona</Example>
+            <Example>gdzie jest zlokalizowana</Example>
+            <Example>gdzie się znajduje</Example>
+            <Example>pokaż na mapie</Example>
+            <Example>możesz pokazać na mapie położenie</Example>
+            <Example>gdzie są</Example>
+		</Examples>
+		<ManualExamples>
+            <ManualExample>gdzie jest Warszawa</ManualExample>
+            <ManualExample>gdzie zlokalizowany jest Hamburg</ManualExample>
+            <ManualExample>gdzie znajduje się Madryt</ManualExample>
+            <ManualExample>gdzie jest Moskwa</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>wikipedia</Identifier>
+		<Category>0</Category>
+		<Either>
+			<AllCompulsory>
+				<Either>
+					<Word>co</Word>
+					<Word>kto</Word>
+					<Word>kim</Word>
+				</Either>
+				<Either>
+					<Part>to</Part>
+					<Part>znacz</Part>
+					<Part>jest</Part>
+					<Part>był</Part>
+				</Either>
+			</AllCompulsory>
+			<Part>wikipedi</Part>
+		</Either>
+		<Examples>
+            <Example>kto to jest</Example>
+            <Example>kim jest</Example>
+            <Example>co to za osoba</Example>
+            <Example>definicja</Example>
+            <Example>co to jest</Example>
+            <Example>kto to był</Example>
+            <Example>szukaj w wikipedii</Example>
+            <Example>wikipedia</Example>
+            <Example>możesz powiedzieć coś o</Example>
+            <Example>wyjaśnij znaczenie</Example>
+		</Examples>
+		<ManualExamples>
+            <ManualExample>szukaj w Wikipedii komputer</ManualExample>
+            <ManualExample>kto to jest Justyna Kowalczyk</ManualExample>
+            <ManualExample>co to jest inkwizycja</ManualExample>
+            <ManualExample>kim był Steve Jobs</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>searchOnInternet</Identifier>
+		<Category>0</Category>
+		<Either>
+			<Part>szukaj</Part>
+			<Part>znajdź</Part>
+			<Part>znaleźć</Part>
+			<Part>sprawdź</Part>
+			<Part>sprawdzić</Part>
+			<Part>google</Part>
+		</Either>
+		<Examples>
+            <Example>szukaj</Example>
+            <Example>zapytaj wyszukiwarki</Example>
+            <Example>możesz znaleźć</Example>
+            <Example>znajdź</Example>
+            <Example>poszukaj frazy</Example>
+            <Example>chcę poszukać coś</Example>
+            <Example>szukaj informacji</Example>
+            <Example>google</Example>
+            <Example>możesz sprawdzić</Example>
+            <Example>sprawdź</Example>
+		</Examples>
+		<ManualExamples>
+            <ManualExample>szukaj inkwizycja</ManualExample>
+            <ManualExample>poszukaj teoria gier</ManualExample>
+            <ManualExample>możesz sprawdzić ładowarki samochodowe</ManualExample>
+            <ManualExample>znajdź w google</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>batteryLevel</Identifier>
+		<Category>0</Category>
+		<Either>
+			<Part>bateri</Part>
+		</Either>
+		<Examples>
+            <Example>czy telefon jest naładowany</Example>
+            <Example>stan naładowania</Example>
+            <Example>ile mam baterii</Example>
+            <Example>ile baterii zostało</Example>
+            <Example>procent baterii</Example>
+            <Example>jak wygląda sprawa z baterią</Example>
+            <Example>bateria</Example>
+            <Example>pozostała energia</Example>
+            <Example>w jakim stopniu telefon jest naładowany</Example>
+            <Example>naładowanie urządzenia</Example>
+		</Examples>
+		<ManualExamples>
+            <ManualExample>ile mam baterii</ManualExample>
+            <ManualExample>stan baterii</ManualExample>
+            <ManualExample>jak wyglądam z baterią</ManualExample>
+            <ManualExample>ile procent baterii zostało</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>removeAlarm</Identifier>
+		<Category>0</Category>
+		<Either>
+			<AllCompulsory>
+				<Either>
+					<Part>wyłącz</Part>
+					<Part>dezaktyw</Part>
+					<Word>nie</Word>
+					<Part>żadn</Part>
+				</Either>
+				<Either>
+					<Part>alarm</Part>
+					<Part>budzik</Part>
+					<Part>budź</Part>
+					<Part>budzić</Part>
+					<Part>pobud</Part>
+				</Either>
+			</AllCompulsory>
+		</Either>
+		<Examples>
+			<Example>wyłącz alarm o</Example>
+			<Example>nie budź mnie za</Example>
+			<Example>nie chcę budzika o</Example>
+			<Example>dezaktywuj alarm o</Example>
+			<Example>nie chcę pobudki</Example>
+			<Example>żadnego budzika</Example>
+			<Example>wyłącz budzik o</Example>
+			<Example>możesz wyłączyć najbliższy budzik</Example>
+			<Example>możesz dezaktywować alarm o</Example>
+			<Example>nie chcę alarmu za</Example>
+		</Examples>
+		<ManualExamples>
+			<ManualExample>wyłącz najbliższy budzik</ManualExample>
+			<ManualExample>nie budź mnie o 7:00</ManualExample>
+			<ManualExample>nie chcę alarmu o 22:33</ManualExample>
+			<ManualExample>możesz dezaktywować alarm</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>setAlarm</Identifier>
+		<Category>0</Category>
+		<Either>
+			<Part>alarm</Part>
+			<Part>budzik</Part>
+			<Part>budź</Part>
+			<Part>budzić</Part>
+			<Part>pobud</Part>
+		</Either>
+		<Examples>
+            <Example>włącz alarm</Example>
+            <Example>pobudka o</Example>
+            <Example>obudź mnie o</Example>
+            <Example>chcę wstać o</Example>
+            <Example>chcę spać do</Example>
+            <Example>ustaw budzik</Example>
+            <Example>możesz ustawić budzik</Example>
+            <Example>chcę się obudzić o</Example>
+            <Example>chcę włączyć budzik</Example>
+            <Example>włącz budzik</Example>
+		</Examples>
+		<ManualExamples>
+            <ManualExample>obudź mnie za 6 godzin</ManualExample>
+            <ManualExample>ustaw budzik na 7:30</ManualExample>
+            <ManualExample>włącz alarm na 15:55</ManualExample>
+            <ManualExample>obudź za 44 minuty</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>defaultNumber</Identifier>
+		<Category>0</Category>
+		<Either>
+			<AllCompulsory>
+				<Part>numer</Part>
+				<Part>domyśln</Part>
+			</AllCompulsory>
+		</Either>
+		<Examples>
+            <Example>domyślny numer</Example>
+            <Example>ustaw domyślny numer</Example>
+            <Example>chcę ustawić numer dla</Example>
+            <Example>włącz domyślny numer</Example>
+            <Example>możesz ustawić numer domyślny</Example>
+            <Example>domyślnie dzwoń pod numer dla</Example>
+            <Example>domyślnie wybieraj numer</Example>
+            <Example>możesz przestawić domyślny numer</Example>
+            <Example>chcę domyślny numer dla</Example>
+            <Example>domyślny numer do</Example>
+		</Examples>
+		<ManualExamples>
+            <ManualExample>ustaw domyślny numer dla Jarka</ManualExample>
+            <ManualExample>domyślny numer dla Joli</ManualExample>
+            <ManualExample>domyślny numer dla Jacka</ManualExample>
+            <ManualExample>chcę ustawić domyślny numer dla Kowalskiego</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>currentHour</Identifier>
+		<Category>0</Category>
+		<Either>
+			<Word>godzina</Word>
+			<Word>godzinę</Word>
+			<Word>godziny</Word>
+		</Either>
+		<Examples>
+            <Example>jaki mamy czas</Example>
+            <Example>która godzina</Example>
+            <Example>jaka godzina</Example>
+            <Example>którą godzinę mamy</Example>
+            <Example>obecny czas</Example>
+            <Example>stan zegara</Example>
+            <Example>na którą ustawić zegar</Example>
+            <Example>która godzina teraz</Example>
+            <Example>czas teraz</Example>
+            <Example>możesz podać obecną godzinę</Example>
+		</Examples>
+		<ManualExamples>
+            <ManualExample>obecna godzina</ManualExample>
+            <ManualExmaple>jaką mamy godzinę</ManualExmaple>
+            <ManualExample>która godzina</ManualExample>
+            <ManualExample>godzina teraz</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>currentDayOfWeek</Identifier>
+		<Category>0</Category>
+		<Either>
+			<AllCompulsory>
+				<Word>dzień</Word>
+				<Word>tygodnia</Word>
+			</AllCompulsory>
+		</Either>
+		<Examples>
+            <Example>dzień tygodnia teraz</Example>
+            <Example>który dzień tygodnia mamy dzisiaj</Example>
+            <Example>dzisiaj sobota czy niedziela</Example>
+            <Example>teraz mamy poniedziałek czy środę</Example>
+            <Example>czwartek dzisiaj</Example>
+            <Example>jaki dzień tygodnia jest dzisiaj</Example>
+            <Example>dzień tygodnia teraz</Example>
+            <Example>dzień tygodnia</Example>
+            <Example>jaki mamy dzień tygodnia</Example>
+            <Example>piątek jest teraz</Example>
+		</Examples>
+		<ManualExamples>
+            <ManualExample>jaki mamy dzień tygodnia</ManualExample>
+            <ManualExample>dzień tygodnia dzisiaj</ManualExample>
+            <ManualExample>jaki jest dzień tygodnia teraz</ManualExample>
+            <ManualExample>dzień tygodnia</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>currentDate</Identifier>
+		<Category>0</Category>
+		<Either>
+			<Word>data</Word>
+			<Word>datę</Word>
+			<AllCompulsory>
+				<Either>
+					<Word>który</Word>
+					<Word>którego</Word>
+					<Word>jaki</Word>
+					<Word>jakiego</Word>
+				</Either>
+				<Word>dzisiaj</Word>
+			</AllCompulsory>
+		</Either>
+		<Examples>
+            <Example>jaki dzień teraz</Example>
+            <Example>obecna data</Example>
+            <Example>termin dzisiejszy</Example>
+            <Example>którego mamy dzisiaj</Example>
+            <Example>jaki dzień w kalendarzu jest teraz</Example>
+            <Example>którego dzisiaj</Example>
+            <Example>teraźniejsza data</Example>
+            <Example>jaki dzień jest teraz</Example>
+            <Example>którego w tym momencie</Example>
+            <Example>którego mamy teraz</Example>
+		</Examples>
+		<ManualExamples>
+            <ManualExample>którego mamy dzisiaj</ManualExample>
+            <ManualExample>jaką datę mamy teraz</ManualExample>
+            <ManualExample>obecna data</ManualExample>
+            <ManualExample>jaki dzień dzisiaj</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>setReminder</Identifier>
+		<Category>0</Category>
+		<Either>
+			<Part>zdarzeni</Part>
+			<Part>wydarzeni</Part>
+			<Part>przypomni</Part>
+		</Either>
+		<Examples>
+            <Example>przypomnij mi o</Example>
+            <Example>utwórz zdarzenie</Example>
+            <Example>wydarzenie</Example>
+            <Example>zapisz wydarzenie w kalendarzu</Example>
+            <Example>pamiętaj o</Example>
+            <Example>możesz zapamiętać żeby</Example>
+            <Example>ustaw przypomnienie</Example>
+            <Example>chcę przypomnienie że</Example>
+            <Example>przypomnij mi że</Example>
+            <Example>chcę zapisać nowe wydarzenie</Example>
+		</Examples>
+		<ManualExamples>
+            <ManualExample>przypomnij mi</ManualExample>
+            <ManualExample>chcę ustawić zdarzenie</ManualExample>
+            <ManualExample>nowe przypomnienie</ManualExample>
+            <ManualExample>utwórz wydarzenie</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>restart</Identifier>
+		<Category>0</Category>
+		<Either>
+			<Part>reset</Part>
+			<Part>restart</Part>
+			<AllCompulsory>
+				<Part>uruchom</Part>
+				<Part>ponownie</Part>
+			</AllCompulsory>
+		</Either>
+		<Examples>
+            <Example>zrestartuj telefon</Example>
+            <Example>możesz zresetować telefon</Example>
+            <Example>restart urządzenia</Example>
+            <Example>włącz jeszcze raz telefon</Example>
+            <Example>chcę ponownie uruchomić telefon</Example>
+            <Example>restartuj tablet</Example>
+            <Example>możesz restartować komputer</Example>
+            <Example>reset</Example>
+            <Example>uruchom ponownie</Example>
+            <Example>restart</Example>
+		</Examples>
+		<ManualExamples>
+            <ManualExample>zrestartuj telefon</ManualExample>
+            <ManualExample>chcę uruchomić ponownie urządzenie</ManualExample>
+            <ManualExample>możesz zresetować telefon</ManualExample>
+            <ManualExample>restart</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>turnOff</Identifier>
+		<Category>0</Category>
+		<Either>
+			<AllCompulsory>
+				<Either>
+					<Part>wyłącz</Part>
+					<Part>gasić</Part>
+					<Part>gaś</Part>
+				</Either>
+                <Either>
+				    <Part>fon</Part>
+				    <Part>komórk</Part>
+                    <Part>tablet</Part>
+                    <Part>komp</Part>
+                    <Part>urządzen</Part>
+                </Either>
+			</AllCompulsory>
+		</Either>
+		<Examples>
+            <Example>wyłącz telefon</Example>
+            <Example>możesz wyłączyć urządzenie</Example>
+            <Example>zgaś tablet</Example>
+            <Example>chcę wyłączyć komputer</Example>
+            <Example>wyłączenie telefonu</Example>
+            <Example>zgaszenie tabletu</Example>
+            <Example>wyłącz fona</Example>
+            <Example>możesz wyłączyć ten telefon</Example>
+            <Example>chcę wyłączenia telefonu</Example>
+            <Example>chcę wyłączenia urządzenia</Example>
+		</Examples>
+		<ManualExamples>
+            <ManualExample>wyłącz telefon</ManualExample>
+            <ManualExample>chcę zgasić fona</ManualExample>
+            <ManualExample>możesz wyłączyć komórkę</ManualExample>
+            <ManualExample>chcę wyłączyć telefon</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>turnOffAssistant</Identifier>
+		<Category>0</Category>
+		<Either>
+			<Part>wyłącz</Part>
+			<Part>zamknij</Part>
+			<AllCompulsory>
+				<Part>nie</Part>
+				<Either>
+					<Part>potrzebny</Part>
+					<Part>potrzebuję</Part>
+				</Either>
+				<Either>
+					<Part>cię</Part>
+					<Part>asystenta</Part>
+				</Either>
+			</AllCompulsory>
+		</Either>
+		<Examples>
+            <Example>zamknij się</Example>
+            <Example>wyłącz się</Example>
+            <Example>wyłącz</Example>
+            <Example>nie chcę asystenta</Example>
+            <Example>nie potrzebuję tej aplikacji</Example>
+            <Example>zamknij</Example>
+            <Example>chcę żebyś się zamknął</Example>
+            <Example>nie życzę twojej obecności</Example>
+            <Example>zamilcz</Example>
+            <Example>schowaj się</Example>
+		</Examples>
+		<ManualExamples>
+            <ManualExample>zamknij się</ManualExample>
+            <ManualExample>wyłącz się</ManualExample>
+            <ManualExample>nie jesteś już potrzebny</ManualExample>
+            <ManualExample>wyłącz asystenta</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>dictateToClipboard</Identifier>
+		<Category>0</Category>
+		<Either>
+			<Part>dykt</Part>
+			<Part>schow</Part>
+		</Either>
+		<Examples>
+            <Example>dyktuj do schowka</Example>
+            <Example>chcę podyktować tekst</Example>
+            <Example>dyktuj tekst</Example>
+            <Example>nowy tekst do schowka</Example>
+            <Example>zaktualizuj schowek</Example>
+            <Example>wrzuć tekst do schowka</Example>
+            <Example>podyktuj tekst do innej aplikacji</Example>
+            <Example>dyktuj wypowiedź</Example>
+            <Example>podyktuj wypowiedź do schowka</Example>
+            <Example>chcę aktualizacji schowka</Example>
+		</Examples>
+		<ManualExamples>
+            <ManualExample>podyktuj do schowka</ManualExample>
+            <ManualExample>chcę dyktować do schowka</ManualExample>
+            <ManualExample>dyktowanie do schowka</ManualExample>
+            <ManualExample>możesz podyktować do schowka</ManualExample>
+		</ManualExamples>
+	</Function>
+	<Function>
+		<Identifier>assistantPossibilities</Identifier>
+		<Category>0</Category>
+		<Either>
+			<AllCompulsory>
+				<Part>co</Part>
+				<Either>
+					<Part>powiedzieć</Part>
+					<Part>umiesz</Part>
+					<Part>możesz</Part>
+					<Part>potrafisz</Part>
+				</Either>
+			</AllCompulsory>
+		</Either>
+		<Examples>
+            <Example>instrukcja obsługi</Example>
+            <Example>jak mam mówić</Example>
+            <Example>co potrafisz</Example>
+            <Example>nie wiem jak z ciebie korzystać</Example>
+            <Example>co umiesz</Example>
+            <Example>co mogę z tobą zrobić</Example>
+            <Example>co mogę powiedzieć</Example>
+            <Example>co umiesz wykonać</Example>
+            <Example>nie znam instrukcji</Example>
+            <Example>jak to obsłużyć</Example>
+		</Examples>
+		<ManualExamples>
+            <ManualExample>co mogę powiedzieć</ManualExample>
+            <ManualExample>co możesz zrobić</ManualExample>
+            <ManualExample>co potrafisz</ManualExample>
+            <ManualExample>co umiesz wykonać</ManualExample>
+		</ManualExamples>
+	</Function>
+</Syntax>

@@ -1,0 +1,1 @@
+include ':app', ':exp4j-0.4.4', ':pocketsphinx-android-5prealpha-nolib', ':commons-io-2.6'

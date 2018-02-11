@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_description">Rewolucyjny asystent głosowy</string>
+    <string name="app_details">Wersja: 2.0.0\n(C) 2015-2018 Maksymilian Graczyk i inni. Licencja: GNU GPL 3.0\n\nProgram wykorzystuje m.in. silnik PocketSphinx, ikonę autorstwa jxnblk na licencji MIT, bibliotekę exp4j oraz ikonę autorstwa Elegant Themes na licencji CC BY 3.0.\n\nDane pogodowe pobierane są z Dark Sky (https://darksky.net/poweredby).</string>
+    <string name="title_settings_activity">Ustawienia</string>
+    <string name="title_possibilities_activity">Możliwości asystenta</string>
+    <string name="title_about_activity">O programie</string>
+    <string name="title_alarm_activity">Alarm</string>
+    <string name="title_authorization_browser_activity">Autoryzacja</string>
+    <string name="exp4j">Strona exp4j</string>
+    <string name="ET_icon">Link do ikony ET</string>
+    <string name="start_recognition">Rozpoznaj</string>
+    <string name="settings">Ustawienia</string>
+    <string name="not_speaking_anymore">Nic już nie mówisz? Dotknij tutaj.</string>
+    <string name="problem_button">Problem? (przycisk)</string>
+    <string name="problem">Problem?</string>
+    <string name="write_command">Napisz wypowiedź...</string>
+    <string name="time_is_up">Czas minął!</string>
+    <string name="previous">Poprzedni</string>
+    <string name="next">Następny</string>
+    <string name="refresh">Odśwież</string>
+    <string name="open_in_browser">Otwórz w przeglądarce</string>
+    <string name="purchase">Usuń reklamy / dotacja</string>
+    <string name="possibilities">Możliwości asystenta</string>
+    <string name="bug_or_suggestion">Zgłoś błąd/sugestię</string>
+    <string name="about">O programie...</string>
+    <string name="tickbox">Pole</string>
+    <string name="activation">Wywołanie</string>
+
+    <string name="assistant">Asystent</string>
+    <string name="button_location">Położenie dymka</string>
+    <string name="turn_off_button">Wyłącz dymek</string>
+    <string name="cancel">Anuluj</string>
+    <string name="activation_on_notify_title">Wywołanie aktywne</string>
+    <string name="activation_on_notify_desc">Polassis włączy się po określonej czynności.</string>
+    <string name="activation_word_prohibited">Polassis: Ustawiony zwrot wywołujący zawiera niedozwolone słowa. Spróbuj go zmienić.</string>
+    <string name="activation_error">Polassis: Wystąpił błąd podczas uruchamiania wywołania. Spróbuj wyłączyć i włączyć wywołanie w ustawieniach.</string>
+    <string name="speech_recognition_working">Rozpoznawanie mowy w trakcie...</string>
+    <string name="microphone">Mikrofon</string>
+    <string name="speech_recognition_language_code">pl-PL</string>
+    <string name="speech_recognition_not_starting">Rozpoznawanie mowy nie uruchamia się. Restartuję je. Jeśli problem będzie się utrzymywał, dotknij "Problem?" w ekranie głównym asystenta.</string>
+    <string name="turn_off">Wyłącz</string>
+    <string name="speech_recognition_error">Błąd rozpoznawania mowy - kod %%CODE%%</string>
+    <string name="date">%%DAY%% %%MONTH%% %%YEAR%%</string>
+    <string name="january">stycznia</string>
+    <string name="february">lutego</string>
+    <string name="march">marca</string>
+    <string name="april">kwietnia</string>
+    <string name="may">maja</string>
+    <string name="june">czerwca</string>
+    <string name="july">lipca</string>
+    <string name="august">sierpnia</string>
+    <string name="september">września</string>
+    <string name="october">października</string>
+    <string name="november">listopada</string>
+    <string name="december">grudnia</string>
+    <string name="read_phone_state_permission_required_part1">Wymagane jest przyznanie uprawnienia do odczytu stanu telefonu, aby Polassis mógł rozpoznawać, kiedy jest rozmowa telefoniczna (w celu automatycznego wyłączenia wywołania / włączania trybu głośnomówiącego). ...</string>
+    <string name="read_phone_state_permission_required_part2">Przyznaj uprawnienie w ustawieniach Androida lub w Androidzie 6.0+ poproś asystenta o wysłanie SMS-a (wówczas prośba o przyznanie uprawnienia powinna pojawić się automatycznie).</string>
+    <string name="ok">OK</string>
+    <string name="settings_permission_granted">Uprawnienie przyznane. Możesz teraz zmienić ustawienie.</string>
+    <string name="settings_permission_not_granted">Nie przyznano wszystkich wymaganych uprawnień. Dane ustawienie nie będzie działać prawidłowo.</string>
+    <string name="wait">Czekaj...</string>
+    <string name="custom">Niestandardowe</string>
+    <string name="change_background_error">Wystąpił błąd podczas wczytywania obrazu. Tło nie zostało zmienione. Jeśli problem nie ustępuje, zaznacz opcję "Inna metoda pob. tła".</string>
+    <string name="permissions_required">Konieczne przyznanie uprawnień</string>
+    <string name="overlay_permission_required_desc">W Androidzie 6.0 i nowszych konieczne jest przyznanie odpowiedniego uprawnienia Polassisowi z poziomu systemu. Aby to zrobić, dotknij OK.</string>
+    <string name="app_list_loading">Wczytywanie listy aplikacji...</string>
+    <string name="app_list_load_error">Nie udało się wczytać listy aplikacji.</string>
+    <string name="contact_list_loading">Wczytywanie listy kontaktów...</string>
+    <string name="contact_list_load_error">Nie udało się wczytać listy kontaktów.</string>
+    <string name="voice_activation_desc_title">Wywołanie przez powiedzenie</string>
+    <string name="voice_activation_desc">Aby wywołać asystenta, powiedz do telefonu określony w ustawieniu "Zwrot wywołujący" zwrot (domyślnie: "hi polish app"), niezależnie od otwartej w danej chwili aplikacji.\nUWAGA 1: Ten typ wywołania może nie działać prawidłowo przy wyłączonym ekranie, jeśli opcja "Brak trybu uśpienia" nie jest zaznaczona.\nUWAGA 2: W tle będzie działał PocketSphinx - silnik rozpoznawania mowy offline. Może to negatywnie wpływać na zużycie baterii!</string>
+    <string name="press_activation_desc_title">Wywołanie przez naciśnięcie</string>
+    <string name="press_activation_desc">Aby wywołać asystenta, naciśnij trzy razy przycisk zasilania (blokady ekranu) maksymalnie w 3-sekundowych odstępach. Ten typ wywołania nie wpływa znacząco na zużycie baterii i działa nawet przy wyłączonym ekranie.</string>
+    <string name="default_background_success">Domyślne tło zostało przywrócone pomyślnie.</string>
+    <string name="default_background_error">Wystąpił błąd podczas przywracania domyślnego tła.</string>
+    <string name="last_date_cleared">Data wyczyszczona!</string>
+    <string name="settings_screen_load_error">Wystąpił problem podczas wczytywania ekranu ustawień. Może on nie działać prawidłowo.</string>
+    <string name="overlay_permission_required_desc2">Musisz przyznać Polassisowi uprawnienia do rysowania ponad pozostałe okna. Zrobisz to w tym miejscu.</string>
+    <string name="tts_load_error">Syntezator mowy nie wczytał się, kod %%CODE%%</string>
+    <string name="tts_error">Wystąpił błąd podczas syntezy.</string>
+    <string name="timer_notify_title">Minutnik (Polassis)</string>
+    <string name="general_screen_title">Ogólne</string>
+    <string name="force_google_speech_recognition_title">Wymusz. silnika Google</string>
+    <string name="force_google_speech_recognition_summary">MOŻE NIE DZIAŁAĆ: Niech asystent zawsze korzysta z silnika rozpoznawania mowy Google, niezależnie od ustawień systemu</string>
+    <string name="slow_speech_recognition_solution_title">Szybsze rozp. mowy</string>
+    <string name="slow_speech_recognition_solution_summary">MOŻE NIE DZIAŁAĆ: Zaznacz, jeśli rozpoznawanie mowy działa nienaturalnie wolno</string>
+    <string name="longer_timeout_title">Późn. zakończenie</string>
+    <string name="longer_timeout_summary">Zaznacz, jeśli asystent za szybko kończy słuchanie po zakończeniu Twojego mówienia</string>
+    <string name="bluetooth_headset_support_title">Obsł. słuchawki Bluetooth</string>
+    <string name="bluetooth_headset_support_summary">Gdy telefon będzie połączony ze słuchawką Bluetooth, niech asystent korzysta z niej zamiast głośnika i mikrofonu smartfona</string>
+    <string name="conversation_mode_title">Tryb rozmowy</string>
+    <string name="conversation_mode_summary">Kiedy asystent skończy mówić, włącz automatycznie rozpoznawanie mowy w celu kontynuowania rozmowy</string>
+    <string name="conversation_mode_when_controlling_music_title">Rozm. przy ster. muzyką</string>
+    <string name="conversation_mode_when_controlling_music_summary">Po wydaniu polecenia dot. sterowania muzyką niech rozpoznawanie mowy też będzie włączane</string>
+    <string name="assistant_auto_turn_off_title">Wyłączanie asystenta</string>
+    <string name="assistant_auto_turn_off_summary">Po wykonaniu rozmowy telefonicznej lub uruchomieniu innej aplikacji przez asystenta niech sam asystent się wyłączy</string>
+    <string name="assistant_turn_off_after_thank_you_title">Wyłączenie po podziękow.</string>
+    <string name="assistant_turn_off_after_thank_you_summary">Kiedy powiesz np. "dziękuję", niech asystent wyłączy się, niezależnie od tego, czy ekran jest zablokowany</string>
+    <string name="accessibility_screen_title">Ułatwienia dostępu</string>
+    <string name="accessibility_screen_summary">Dla m.in. osób niewidomych, niedowidzących i korzystających z czytnika ekranu</string>
+    <string name="larger_buttons_title">Większe przyciski</string>
+    <string name="larger_buttons_summary">Niech przyciski w ekranie głównym aplikacji będą większe</string>
+    <string name="button_text_at_the_beginning_title">"Przycisk" na pocz.</string>
+    <string name="button_text_at_the_beginning_summary">Niech przy czytaniu tekstu "Problem?" słowo "Przycisk" będzie na początku (dotyczy osób korzystających z czytnika ekranu)</string>
+    <string name="activation_screen_title">Wywołanie</string>
+    <string name="overlay_button_title">Dymek</string>
+    <string name="overlay_button_summary">Niech na ekranie będzie stale widoczny przycisk, który pozwala na wywołanie asystenta</string>
+    <string name="activation_title">Wywołanie</string>
+    <string name="activation_summary">Niech asystent uruchamia się automatycznie po wykonaniu określonej czynności</string>
+    <string name="activation_type_title">Typ wywołania</string>
+    <string name="activation_phrase_title">Zwrot wywołujący</string>
+    <string name="activation_phrase_dialog_title">Zwrot wywołujący (musi być po angielsku)</string>
+    <string name="activation_threshold_title">Próg pewności</string>
+    <string name="display_screen_title">Ekran</string>
+    <string name="display_always_on_title">Niewyłączanie ekranu</string>
+    <string name="display_always_on_summary">Niech ekran nigdy nie gaśnie, gdy asystent jest w danej chwili włączony</string>
+    <string name="text_to_speech_screen_title">Synteza mowy</string>
+    <string name="text_to_speech_title">Synteza</string>
+    <string name="text_to_speech_summary">Niech asystent wykorzystuje syntezator mowy ustawiony jako domyślny w systemie</string>
+    <string name="text_to_speech_voice_title">Syntezator</string>
+    <string name="text_to_speech_speed_title">Szybkość mówienia</string>
+    <string name="read_recognised_phrase_title">Czytanie wypowiedzi</string>
+    <string name="read_recognised_phrase_summary">Niech asystent czyta wyniki rozpoznawania mowy</string>
+    <string name="reading_recognised_phrase_speed_title">Szybkość czytania</string>
+    <string name="appearance_screen_title">Wygląd</string>
+    <string name="background_title">Tło ekranu głównego</string>
+    <string name="other_method_background_title">Inna metoda pob. tła</string>
+    <string name="other_method_background_summary">Zaznacz, jeśli są problemy z ustawieniem tła</string>
+    <string name="default_background_title">Przywróć domyślne tło</string>
+    <string name="default_background_summary">Niech tło ekranu głównego asystenta będzie standardowe</string>
+    <string name="dark_colours_title">Ciemne kolory</string>
+    <string name="dark_colours_summary">Niech przyciski (z wyjątkiem mikrofonu) oraz teksty na ekranie głównym asystenta mają ciemne kolory</string>
+    <string name="contacts_screen_title">Kontakty</string>
+    <string name="exact_contact_names_title">Dokładne sprawdz. nazwy</string>
+    <string name="exact_contact_names_summary">Gdy asystent przeszukuje bazę kontaktów i znajdzie kontakt, który ma dokładnie tę samą nazwę, co powiedziana, niech wybierze tylko ten kontakt</string>
+    <string name="similar_contact_names_title">Podobne nazwy</string>
+    <string name="similar_contact_names_summary">Gdy asystent przeszukuje bazę kontaktów, niech szuka też kontaktów o nazwie podobnej do poszukiwanej</string>
+    <string name="number_of_similar_contacts_proposed_title">Liczba propon. kontaktów</string>
+    <string name="reading_phone_numbers_type_title">Czytanie numerów telefonu</string>
+    <string name="functions_screen_title">Funkcje asystenta</string>
+    <string name="calls_category_title">Połączenia telefoniczne</string>
+    <string name="call_speaker_mode_title">Tryb głośnomówiący</string>
+    <string name="call_speaker_mode_summary">MOŻE NIE DZIAŁAĆ: Niech asystent zawsze włącza tryb głośnomówiący, gdy wykonuje on połączenie telefoniczne</string>
+    <string name="messages_category_title">SMS</string>
+    <string name="run_message_app_title">Uruch. aplikacji do SMS-ów</string>
+    <string name="run_message_app_summary">Zamiast wysłania SMS-a niech asystent uruchomi aplikację do SMS-ów z napisaną wiadomością</string>
+    <string name="receiving_messages_mode_title">Odbieranie SMS-ów</string>
+    <string name="receiving_messages_mode_summary">Niech asystent odbiera SMS-y i proponuje ich odczytanie</string>
+    <string name="receiving_messages_bluetooth_headset_is_on_title">Odbieranie przy sł. Bluetooth</string>
+    <string name="receiving_messages_bluetooth_headset_is_on_summary">Niech asystent proponuje odczytanie nowych SMS-ów tylko przy aktywnym połączeniu ze słuchawką Bluetooth</string>
+    <string name="do_not_receive_messages_in_silent_mode_title">Nieodbieranie w trybie cichym</string>
+    <string name="do_not_receive_messages_in_silent_mode_summary">Jeśli SMS przyjdzie wtedy, kiedy telefon będzie w trybie cichym, niech asystent nie proponuje jego odczytania</string>
+    <string name="reminders_category_title">Przypomnienia</string>
+    <string name="browser_category_title">Przeglądarka</string>
+    <string name="default_browser_title">Domyślna przeglądarka</string>
+    <string name="default_browser_summary">Niech asystent zawsze włącza przeglądarkę ustawioną jako domyślną w systemie zamiast swojej wbudowanej</string>
+    <string name="search_category_title">Wyszukiwanie</string>
+    <string name="search_engine_title">Wyszukiwarka</string>
+    <string name="silent_mode_category_title">Wyciszanie telefonu</string>
+    <string name="vibration_mode_title">Tryb wibracji</string>
+    <string name="vibration_mode_summary">Niech asystent przełącza telefon w tryb wibracji zamiast w tryb cichy (bez wibracji)</string>
+    <string name="aliases_screen_title">Aliasy</string>
+    <string name="contacts_aliases_title">Słowa zastępcze dla kontaktów</string>
+    <string name="contacts_aliases_summary">Ustaw aliasy dla poszczególnych kontaktów</string>
+    <string name="apps_aliases_title">Słowa zastępcze dla aplikacji</string>
+    <string name="apps_aliases_summary">Ustaw aliasy dla poszczególnych aplikacji</string>
+    <string name="interpunction_title">Znaki interpunkcyjne</string>
+    <string name="interpunction_summary">Zmień sposób, w jaki dyktujesz znaki interpunkcyjne m.in. przy pisaniu SMS-ów/notatek</string>
+    <string name="dot">Kropka</string>
+    <string name="comma">Przecinek</string>
+    <string name="question_mark">Znak zapytania</string>
+    <string name="exclamation_mark">Wykrzyknik</string>
+    <string name="percent">Procent</string>
+    <string name="quotation_mark">Cudzysłów</string>
+    <string name="slash">Ukośnik</string>
+    <string name="bracket_start">Początek nawiasu</string>
+    <string name="bracket_end">Koniec nawiasu</string>
+    <string name="space">Spacja</string>
+    <string name="dash">Myślnik</string>
+    <string name="colon">Dwukropek</string>
+    <string name="semicolon">Średnik</string>
+    <string name="at">Małpa (tylko pisanie maili)</string>
+    <string name="at_value">Małpa</string>
+    <string name="other_screen_title">Inne</string>
+    <string name="clear_last_checked_title">Sprawdź aktualności</string>
+    <string name="clear_last_checked_summary">Wyczyść datę ostatniego sprawdzenia aktualności i aktualizacji - w ten sposób asystent jeszcze raz je sprawdzi</string>
+    <string name="debug_mode_title">Tryb debugowania</string>
+    <string name="debug_mode_summary">WŁĄCZ TYLKO NA WYRAŹNĄ PROŚBĘ: W razie wystąpienia wyjątku niepowodującego awarii aplikacji, powiadom o tym</string>
+    <string name="system_tts_title">Domyślny w systemie</string>
+    <string name="system_tts_summary">Syntezator ustawiony w urządzeniu jako domyślny</string>
+    <string name="google_play_connection_no_ads_error">Wystąpił błąd podczas próby połączenia się z Google Play. Aplikacja tym samym nie jest w stanie ustalić, czy reklamy są aktywne w Twoim wypadku, czy nie.</string>
+
+    <string name="news_check_error">Nie udało się sprawdzić aktualności.</string>
+    <string name="update">Aktualizacja!</string>
+    <string name="update_message">Wydano nową wersję asystenta: %%VERSION%%. Proszę o jej jak najszybsze zainstalowanie. Lista zmian znajduje się na stronie internetowej Polassisa.</string>
+    <string name="news_number">Aktualność %%CURRENT%%/%%TOTAL%%</string>
+    <string name="news_important_tag">(WAŻNA)</string>
+    <string name="publication_date">Data publikacji:</string>
+
+    <string name="starting_speech_recognition">Uruchamiam rozpoznawanie mowy...</string>
+    <string name="speech_recognition_not_starting_title">Rozpoznawanie mowy nie uruchamia się</string>
+    <string name="speech_recognition_not_starting_message">Polassis nie mógł uruchomić rozpoznawania mowy. Dzieje się tak, kiedy nie jest ono zainstalowane bądź są problemy z silnikiem rozpoznawania mowy lub syntezatorem mowy (rzadziej).  Możliwe rozwiązania tego problemu: - Sprawdź, czy masz zainstalowaną najnowszą wersję silnika rozpoznawania mowy (dla Androida 4.1+ najczęściej jest to aplikacja Google dostępna w sklepie Google Play). Jeśli nie, zainstaluj ją, a następnie zrestartuj Polassisa. - Upewnij się, czy silnik (aplikacja) rozpoznawania mowy ma przyznane uprawnienie do nagrywania dźwięku (dotyczy Androida 6.0+). Jeśli nie, przyznaj to uprawnienie. - Zrestartuj Polassisa. Wyłącz aplikację (nastąpi to po dotknięciu przycisku \"OK\") i włącz ją jeszcze raz. - Zaznacz opcję \"Wymusz. silnika Google\" w ustawieniach asystenta. - Sprawdź, czy rozpoznawanie mowy działa poprawnie w innych aplikacjach wykorzystujących tę technologię. - Sprawdź, czy poprawnie działa ustawiony w systemie domyślny syntezator mowy (np. w innej aplikacji wykorzystującej syntezę mowy). Jeśli syntezator będzie sprawiał problemy, spróbuj zainstalować inny i uczynić go domyślnym.  Jeśli powyższe rozwiązania nie przyniosą żadnych efektów, napisz maila pod adres uwagi (małpa) polassis.pl.</string>
+
+    <string name="wikipedia">Wikipedia:</string>
+
+    <string name="waiting_for_tts_to_complete">Oczekiwanie na zakończenie syntezy mowy...</string>
+
+    <string name="problem_button_content_description_beginning">Przycisk: Problem?</string>
+    <string name="problem_button_content_description_end">Problem? (przycisk)</string>
+    <string name="settings_screen_error_title">Błąd podczas uruchamiania ustawień</string>
+    <string name="settings_screen_error_message">%%ERROR%%\n\nJeśli problem nie będzie ustępował, napisz do mnie maila, dotykając \"Zgłoś błąd/sugestię\" w menu Pomoc i wpisując w treści opis wyjątku znajdujący się powyżej.</string>
+    <string name="purchase_completed_title">Zakup zakończony pomyślnie</string>
+    <string name="purchase_completed_message">Sklep Google Play pomyślnie przetworzył Twoje zamówienie. Chciałbym serdecznie podziękować za wsparcie pieniężne, jakie otrzymałem od Ciebie.</string>
+    <string name="picture_saved">Zdjęcie zostało zapisane w galerii.</string>
+    <string name="purchase_question">Co chcesz kupić?</string>
+    <string name="ads_removal">Usunięcie reklam</string>
+    <string name="disabled_person_question">Czy jesteś osobą niepełnosprawną?</string>
+    <string name="message_for_disabled">Zgodnie z Twoją odpowiedzią, jesteś osobą niepełnosprawną. Przysługuje więc Tobie bezpłatna wersja Polassisa bez reklam. Wystarczy, że wyślesz skan lub zdjęcie dokumentu potwierdzającego Twoją niepełnosprawność (np. orzeczenie o stopniu niepełnosprawności) wraz z adresem konta Google przypisanego do Twojego urządzenia pod adres niepelnosprawni (małpa) polassis.pl (dane typu zdjęcie, PESEL czy numer dokumentu tożsamości mogą być zakryte/zamazane) - po pomyślnej weryfikacji otrzymasz instrukcję, jak usunąć reklamy w asystencie.</string>
+    <string name="no">Nie</string>
+    <string name="google_play_connection_error">Wystąpił błąd podczas próby połączenia się z Google Play. Spróbuj ponownie za chwilę.</string>
+    <string name="yes">Tak</string>
+    <string name="author_support">Wsparcie autora</string>
+    <string name="bluetooth_headset_connection_error_title">Błąd połączenia ze słuchawką Bluetooth</string>
+    <string name="bluetooth_headset_connection_error_message">Nie udało się włączyć przekazywania dźwięków do słuchawki Bluetooth. Przyczyna problemu może leżeć zarówno po stronie aplikacji, Androida, jak i samej słuchawki. Spróbuj zrestartować Polassisa. Jeśli błąd ten będzie się powtarzać, wyłącz i włącz Bluetooth. W razie dalszych problemów wyłącz obsługę słuchawki Bluetooth i napisz do mnie maila, podając model używanej słuchawki.</string>
+    <string name="close">Zamknij</string>
+    <string name="speech_recognition_already_running_error">Funkcja uruchomienia rozpoznawania mowy jest już uruchomiona. Jeśli komunikat się powtarza, wyłącz i włącz Polassisa.</string>
+    <string name="number">numer</string>
+    <string name="nothing_heard">Nic nie usłyszałem.</string>
+    <string name="nothing_heard_again">Po raz drugi nic nie usłyszałem. Cofam więc swoje pytanie.</string>
+    <string name="repeat">Powtórz.</string>
+
+    <string name="no_lowercase">nie</string>
+
+    <string name="private_number">numeru zastrzeżonego</string>
+
+    <string name="sunday">Niedziela</string>
+    <string name="monday">Poniedziałek</string>
+    <string name="tuesday">Wtorek</string>
+    <string name="wednesday">Środa</string>
+    <string name="thursday">Czwartek</string>
+    <string name="friday">Piątek</string>
+    <string name="saturday">Sobota</string>
+
+    <string name="speech_recognition_permission_required">Musisz przyznać odpowiednie uprawnienia, aby można było korzystać z rozpoznawania mowy.</string>
+
+    <string name="degrees_celsius">°C</string>
+    <string name="retrieving_apps_wait">Oczekiwanie na wczytanie listy aplikacji...</string>
+    <string name="prohibited_word">Niedozwolone słowo</string>
+    <string name="prohibited_word_desc">Alias zawiera niedozwolone słowo. Jego użycie zakłóciłoby przetwarzanie wypowiedzi przez asystenta.  Jeśli chcesz skorzystać z tego słowa, użyj funkcji nauki poleceń.</string>
+
+    <string name="turn_off_activation">Wyłącz wywołanie</string>
+    <string name="no_capitalization_title">Brak wielkich liter</string>
+    <string name="no_capitalization_summary">Niech asystent nie zmienia małych liter na wielkie w niektórych miejscach w rozpoznanej wypowiedzi (zaznacz, jeśli zasady ortografii w twoim języku są inne)</string>
+    <string name="player_control_title">Sterowanie odtwarzaczem</string>
+    <string name="controlled_media_player_title">Sterowana aplikacja</string>
+    <string name="command_learning_screen_title">Nauka poleceń</string>
+    <string name="new_command_title">Nowe polecenie</string>
+    <string name="saved_commands_title">Zapisane polecenia</string>
+
+    <string-array name="months">
+        <item>stycz</item>
+        <item>lut</item>
+        <item>mar</item>
+        <item>kwie</item>
+        <item>maj</item>
+        <item>czerw</item>
+        <item>lip</item>
+        <item>sierp</item>
+        <item>wrze</item>
+        <item>październik</item>
+        <item>listopad</item>
+        <item>grud</item>
+    </string-array>
+
+    <string-array name="time_units">
+        <item>sekunda|sekundy|sekundzie|sekundę|sekundą|sekundo|sekundy|sekund|sekundom|sekundami|sekundach</item>
+        <item>minuta|minuty|minucie|minutę|minutą|minuto|minuty|minut|minutom|minutami|minutach</item>
+        <item>godzina|godziny|godzinie|godzinę|godziną|godzino|godzin|godzinom|godzinami|godzinach</item>
+        <item>dzień|dnia|dniu|dniem|dni|dniom|dniami|dniach</item>
+        <item>tydzień|tygodnia|tygodniu|tygodniem|tygodnie|tygodni|tygodniom|tygodniami|tygodniach</item>
+        <item>miesiąc|miesiąca|miesiącowi|miesiącem|miesiącu|miesiące|miesięcy|miesiącom|miesiącami|miesiącach</item>
+        <item>rok|roku|rokowi|rokiem|lata|lat|latom|latami|latach</item>
+    </string-array>
+
+    <string-array name="days_forward">
+        <item>dzisi</item>
+        <item>jutr</item>
+        <item>pojutr</item>
+    </string-array>
+
+    <string-array name="days_backward">
+        <item>wczoraj</item>
+        <item>przedwczoraj</item>
+    </string-array>
+
+    <string name="am"></string>
+    <string name="pm"></string>
+
+    <string-array name="numbers">
+        <item>zero|zera|zeru|zerem|zerze</item>
+        <item>jeden|jednego|jednemu|jednym|jedny|jedna|jednej|jedną|jedno|pierwszy|pierwszego|pierwszemu|pierwszym|pierwsza|pierwszej|pierwszą|pierwsze|jedynka|jedynki|jedynce|jedynkę|jedynką</item>
+        <item>dwa|dwóch|dwóm|dwoma|dwie|dwoje|dwojga|dwojgu|dwojgiem|drugi|drugiego|drugiemu|drugim|drugie|druga|drugiej|drugą|dwójka|dwójki|dwójce|dwójkę|dwójką</item>
+        <item>trzy|trzech|trzem|trzema|troje|trojga|trojgu|trojgiem|trójka|trójki|trójce|trójką|trójkę|trzeci|trzeciego|trzeciemu|trzecim|trzecie|trzecia|trzeciej|trzecią</item>
+        <item>cztery|czterech|czterem|czterema|czworo|czworga|czworgu|czworgiem|czwarty|czwartego|czwartemu|czwartym|czwarte|czwarta|czwartej|czwartą|czwórka|czwórki|czwórce|czwórkę|czwórką</item>
+        <item>pięć|pięciu|pięcioma|pięcioro|pięciorga|pięciorgu|pięciorgiem|piąty|piątego|piątemu|piątym|piąte|piąta|piątej|piątą|piątka|piątki|piątce|piątkę|piątką</item>
+        <item>sześć|sześciu|sześcioma|sześcioro|sześciorga|sześciorgu|sześciorgiem|szósty|szóstego|szóstemu|szóstym|szóste|szósta|szóstej|szóstą|szóstka|szóstki|szóstce|szóstkę|szóstką</item>
+        <item>siedem|siedmiu|siedmioma|siedmioro|siedmiorga|siedmiorgu|siedmorgiem|siódmy|siódmego|siódmemu|siódmym|siódme|siódma|siódmej|siódmą|siódemka|siódemki|siódemce|siódemkę|siódemką</item>
+        <item>osiem|ośmiu|ośmioma|ośmioro|ośmiorga|ośmiorgu|ośmiorgiem|ósmy|ósmego|ósmemu|ósmym|ósme|ósma|ósmej|ósmą|ósemka|ósemki|ósemce|ósemkę|ósemką</item>
+        <item>dziewięć|dziewięciu|dziewięcioma|dziewięcioro|dziewięciorga|dziewięciorgu|dziewięciorgiem|dziewiąty|dziewiątego|dziewiątemu|dziewiątym|dziewiąte|dziewiąta|dziewiątej|dziewiątą|dziewiątka|dziewiątki|dziewiątce|dziewiątkę|dziewiątką</item>
+        <item>dziesięć|dziesięciu|dziesięcioma|dziesięcioro|dziesięciorga|dziesięciorgu|dziesięciorgiem|dziesiąty|dziesiątego|dziesiątemu|dziesiątym|dziesiąte|dziesiąta|dziesiątej|dziesiątą|dziesiątka|dziesiątki|dziesiątce|dziesiątkę|dziesiątką</item>
+    </string-array>
+
+    <string name="yes_words">tak|fuck|duck|tu|pewn</string>
+    <string name="no_words">nie</string>
+    <string name="turn_on_words">włącz</string>
+    <string name="turn_off_words">wyłącz</string>
+    <string name="speech_recognition_running_error_toast">Rozpoznawanie mowy nie uruchamia się. Spróbuj ponownie. Jeśli problem się utrzymuje, dotknij \"Problem?\" w ekranie głównym asystenta.</string>
+
+    <string name="read_more">Czytaj więcej...</string>
+    <string name="message_sender">Od:</string>
+    <string name="message_content">Treść:</string>
+    <string name="message_recipient">Do:</string>
+
+    <string name="note_title">Tytuł:</string>
+    <string name="no_changes">(bez zmian)</string>
+
+    <string name="reminder_date">Data:</string>
+    <string name="reminder_time">Godzina:</string>
+    <string name="reminder_title">Tytuł:</string>
+    <string name="remove_all_aliases">Usuń wszystkie aliasy</string>
+    <string name="aliases_removed">Aliasy usunięte!</string>
+    <string name="command_to_be_learnt">Gdy powiesz następujące słowa:</string>
+    <string name="command_to_be_executed">Asystent powinien je zrozumieć jako następujące polecenie:</string>
+    <string name="command_number">Polecenie %%NUMBER%%</string>
+    <string name="command_title">Nazwa tej konfiguracji:</string>
+    <string name="delete">Usuń</string>
+    <string name="no_title">(bez tytułu)</string>
+    <string name="command_edit_title">Edycja polecenia</string>
+    <string name="required">(wymagane)</string>
+    <string name="error">Wystąpił błąd.</string>
+
+
+    <string-array name="math_operations">
+        <item>plus|doda|większ</item>
+        <item>minus|odj|mniej</item>
+        <item>raz|mnoż|mnóż</item>
+        <item>dziel|na</item>
+        <item>kwadrat</item>
+        <item>sześcian</item>
+        <item>potęg</item>
+    </string-array>
+
+    <string name="cancel_words">usuń|usunąć|wyłącz|wyłączyć|kasuj|kasować|skasuj|skasować|nie</string>
+
+    <string name="wave_activation_desc_title">Wywołanie przez machnięcie dłonią</string>
+    <string name="wave_activation_desc">Aby wywołać asystenta, wykonaj dwukrotnie szybkie (nie dłuższe niż 0,8 sekundy) machnięcie dłonią bezpośrednio nad czujnikiem zbliżeniowym urządzenia (zazwyczaj jest on położony w jego górnej części).</string>
+
+    <string name="alarm_message">Budzik!</string>
+    <string name="alarm_screen_title">Ustawione budziki</string>
+    <string name="tap_to_delete_alarm">Dotknij, aby wyłączyć i usunąć alarm</string>
+    <string name="delete_all_alarms_title">Usuń wszystkie budziki</string>
+    <string name="operation_completed">Operacja zakończona pomyślnie!</string>
+    <string name="alarm_deleted">Budzik usunięty.</string>
+
+    <string name="reminders_screen_title">Ustawione przypomnienia</string>
+    <string name="delete_all_reminders_title">Usuń wszystkie przypomnienia</string>
+    <string name="tap_to_delete">(dotknij, aby usunąć)</string>
+    <string name="reminder_deleted">Przypomnienie usunięte.</string>
+    <string name="reminder">Przypomnienie:</string>
+
+    <string name="very_slow">Bardzo wolna</string>
+    <string name="slow">Wolna</string>
+    <string name="normal">Normalna</string>
+    <string name="fast">Szybka</string>
+    <string name="very_fast">Bardzo szybka</string>
+
+    <string name="by_saying_phrase">Przez powiedzenie zwrotu</string>
+    <string name="by_pressing">Przez naciśnięcie</string>
+    <string name="by_waving_hand">Przez machnięcie dłonią</string>
+
+    <string name="read_numbers_fully">W całości</string>
+    <string name="read_numbers_first_three_digits">Częściowo (pierwsze 3 cyfry)</string>
+    <string name="read_numbers_last_three_digits">Częściowo (ostatnie 3 cyfry)</string>
+    <string name="do_not_read_numbers">Brak</string>
+
+    <string name="language_title">Język</string>
+    <string name="updating_language">Aktualizowanie plików językowych...</string>
+    <string name="language_update_error">Wystąpił błąd podczas aktualizowania plików językowych. Zalecana jest ponowna instalacja asystenta.</string>
+    <string name="language_updated_title">Aktualizacja języka</string>
+    <string name="language_updated_message">Pliki językowe zostały pomyślnie zaktualizowane. Musisz zrestartować aplikację, aby aktualizacja przyniosła skutek.</string>
+
+    <string name="language_changed_title">Język zmieniony</string>
+    <string name="language_changed">Język asystenta został zmieniony. Wymagany jest restart aplikacji. Dotknij OK, aby wyłączyć Polassisa.</string>
+
+    <string name="default">Domyślne</string>
+    <string name="custom">Niestandardowe</string>
+</resources>

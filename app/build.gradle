@@ -1,0 +1,39 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+
+    defaultConfig {
+        applicationId "com.mg.polassis"
+        minSdkVersion 16
+        targetSdkVersion 25
+        versionCode 100
+        versionName "2.0.0"
+    }
+    sourceSets {
+        main {
+            aidl.srcDirs = ['src/main/java/com/android/vending/billing']
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+ant.importBuild 'assets.xml'
+preBuild.dependsOn(list, checksum)
+clean.dependsOn(clean_assets)
+
+dependencies {
+    compileOnly fileTree(include: ['*.jar'], dir: 'libs')
+    implementation project(':exp4j-0.4.4')
+    implementation project(':pocketsphinx-android-5prealpha-nolib')
+    implementation 'com.android.support:preference-v7:25.4.0'
+    implementation 'com.android.support:appcompat-v7:25.4.0'
+    implementation 'com.android.support:support-v4:25.4.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation project(':commons-io-2.6')
+}

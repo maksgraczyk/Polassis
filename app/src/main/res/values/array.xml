@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="similar_contacts_number">
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+    </string-array>
+
+    <string-array name="speed_values">
+        <item>"0.5"</item>
+        <item>"0.75"</item>
+        <item>"1.0"</item>
+        <item>"1.5"</item>
+        <item>"2.0"</item>
+    </string-array>
+
+    <string-array name="speed_labels">
+        <item>"very_slow"</item>
+        <item>"slow"</item>
+        <item>"normal"</item>
+        <item>"fast"</item>
+        <item>"very_fast"</item>
+    </string-array>
+
+    <string-array name="seconds_values">
+        <item>"5"</item>
+        <item>"7"</item>
+        <item>"10"</item>
+    </string-array>
+
+    <string-array name="activation_type_labels">
+        <item>"by_saying_phrase"</item>
+        <item>"by_pressing"</item>
+        <item>"by_waving_hand"</item>
+    </string-array>
+
+    <string-array name="search_engines">
+        <item>"Google"</item>
+        <item>"Bing"</item>
+        <item>"DuckDuckGo"</item>
+        <item>"Yahoo"</item>
+    </string-array>
+
+    <string-array name="activation_type_values">
+        <item>"voice"</item>
+        <item>"press_power_button"</item>
+        <item>"wave"</item>
+    </string-array>
+
+    <string-array name="threshold_labels">
+        <item>"60%"</item>
+        <item>"65%"</item>
+        <item>"70%"</item>
+        <item>"75%"</item>
+        <item>"80%"</item>
+        <item>"85%"</item>
+        <item>"90%"</item>
+        <item>"95%"</item>
+        <item>"100%"</item>
+    </string-array>
+
+    <string-array name="threshold_values">
+        <item>"60"</item>
+        <item>"65"</item>
+        <item>"70"</item>
+        <item>"75"</item>
+        <item>"80"</item>
+        <item>"85"</item>
+        <item>"90"</item>
+        <item>"95"</item>
+        <item>"100"</item>
+    </string-array>
+
+    <string-array name="reading_numbers_labels">
+        <item>"read_numbers_fully"</item>
+        <item>"read_numbers_first_three_digits"</item>
+        <item>"read_numbers_last_three_digits"</item>
+        <item>"do_not_read_numbers"</item>
+    </string-array>
+
+    <string-array name="reading_numbers_values">
+        <item>"calk"</item>
+        <item>"czesc1"</item>
+        <item>"czesc2"</item>
+        <item>"brak"</item>
+    </string-array>
+</resources>

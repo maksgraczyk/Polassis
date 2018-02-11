@@ -1,0 +1,8 @@
+#JSGF V1.0;
+
+grammar digits;
+
+<digit> = hello    |
+          assistant  ;
+
+public <digits> = <digit>+;

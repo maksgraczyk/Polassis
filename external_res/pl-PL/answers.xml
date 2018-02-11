@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="all_notes_number_tts">
+        <item>Liczba__[zapisanych]__notatek: %%NUMBER%%.</item>
+    </string-array>
+    <string-array name="note_tts"><item>Notatka__[o tytule]__%%TITLE%%: %%CONTENT%%</item></string-array>
+    <string-array name="temperature"><item>Temperatura</item></string-array>
+    <string-array name="max_temperature">
+        <item>Temperatura__maksymalna__[w ciągu dnia]</item>
+        <item>Najwyższa__temperatura__[w ciągu dnia]</item>
+    </string-array>
+    <string-array name="no_weather_forecast"><item>{Nie ma|Nie mam}__prognozy__[pogody]__dla__{tego miejsca|podanego miejsca|tej miejscowości|podanej miejscowości}__.__[Czy dobrze powiedziano nazwę?|Czy nazwa jest poprawna?]</item></string-array>
+    <string-array name="repeat"><item>Powtórz.</item></string-array>
+    <string-array name="weather_forecast_download_error2"><item>Nie__{udało się|mogę}__{pobrać|uzyskać}__prognozy__[pogody]__[dla tego miejsca|dla tej miejscowości]__.</item></string-array>
+    <string-array name="permission_error"><item>Nie__{mogę wykonać|wykonam}__{tej czynności|tego zadania}__{ze względu na zablokowaną część uprawnień|ponieważ część uprawnień jest zablokowana}.</item></string-array>
+    <string-array name="no_app_found">
+        <item>Nie__znaleziono__{aplikacji|programu}__.</item>
+        <item>Nie__mogę__{znaleźć|odszukać|poszukać}__{podanego programu|usłyszanego programu|podanej aplikacji|usłyszanej aplikacji|aplikacji|programu}__.</item>
+    </string-array>
+    <string-array name="running_app">
+        <item>{Uruchamiam|Włączam|Odpalam}__%%APP%%__&#8230;</item>
+        <item>%%APP%%__,__{wedle życzenia|jak życzysz}__&#8230;</item>
+    </string-array>
+    <string-array name="running_app_error"><item>{Niestety|Przykro mi|Przepraszam}__,__nie__{jestem w stanie|mogę|potrafię}__{uruchomić|włączyć}__[aplikacji|programu]__%%APP%%__.</item></string-array>
+    <string-array name="new_message_received"><item>{Masz nowego esemesa|Masz nową wiadomość|Nowa wiadomość|Nowy esemes}__od__%%SENDER%%__.__{Przeczytać|Chcesz odsłuchać|Odczytać}__?</item></string-array>
+    <string-array name="command_confirmation"><item>Czy__chcesz__,__{zrealizować|wykonać|zrobić}__[polecenie]__\"%%COMMAND%%\"?</item></string-array>
+    <string-array name="permissions_required_message"><item>Musisz przyznać odpowiednie uprawnienia.</item></string-array>
+    <string-array name="contact_one_number_only"><item>{Podany|Ten}__kontakt__{ma|posiada}__tylko__jeden__numer__[telefonu]__.</item></string-array>
+    <string-array name="number_choice_question"><item>Który__numer__[telefonu]__{chcesz wybrać|wybierasz|to ten szukany}__?</item></string-array>
+    <string-array name="contact_suggestion_question">]
+        <item>Czy__{masz na myśli|chodzi Ci o}__%%NAME%%?</item>
+        <item>%%NAME%%__:__{o ten kontakt Ci chodzi|czy ten kontakt masz na myśli}__?</item>
+    </string-array>
+    <string-array name="contact_suggestion_choice_question">
+        <item>Który__kontakt__{masz na myśli|chcesz wybrać|wybierasz}__?</item>
+        <item>O który kontakt Ci chodzi?</item>
+        <item>Którą__osobę__{masz na myśli|chcesz wybrać|wybierasz}__?</item>
+    </string-array>
+    <string-array name="no_contact_found"><item>W__takim__{razie|układzie}__nie__{ma|znaleziono|odnaleziono}__{podanego przez Ciebie|podanego|tego}__kontaktu.</item></string-array>
+    <string-array name="wrong_position"><item>Numer wykracza poza zakres podanych__[przeze mnie]__pozycji. Spróbuj__{jeszcze raz|ponownie}.</item></string-array>
+    <string-array name="wrong_position_parse_error"><item>Twoja wypowiedź nie jest numerem pozycji. Spróbuj__{jeszcze raz|ponownie}.</item></string-array>
+    <string-array name="fine">
+        <item>W porządku__{!|.}</item>
+        <item>Świetnie__{!|.}</item>
+        <item>OK.</item>
+        <item>Nie ma__[najmniejszego]__problemu__{!|.}</item>
+        <item>Nie ma sprawy__{!|.}</item>
+    </string-array>
+    <string-array name="torch_off">
+        <item>Latarka__{wyłączona|zgaszona}__[, wedle życzenia]__.</item>
+        <item>{Zgaszono|Wyłączono}__latarkę.</item>
+    </string-array>
+    <string-array name="torch_on">
+        <item>Latarka__{włączona|zaświecona}__[, wedle życzenia]__.</item>
+        <item>{Włączono|Zaświecono}__latarkę.</item>
+    </string-array>
+    <string-array name="no_cameras_detected"><item>Nie__{wykryto|widzę}__żadnych__{kamer|aparatów}__[tutaj|w Twoim urządzeniu]__.</item></string-array>
+    <string-array name="torch_error">
+        <item>Wystąpił błąd podczas przełączania__[stanu]__latarki.</item>
+        <item>{Niestety|Przykro mi|Przepraszam}__,__wystąpił błąd podczas przełączania__[stanu]__latarki.</item>
+    </string-array>
+    <string-array name="no_torch_detected">
+        <item>To urządzenie nie__{ma|posiada}__latarki.</item>
+        <item>Nie__{widzę|odnaleziono}__[żadnej]__latarki.</item>
+    </string-array>
+    <string-array name="opening_webpage">
+        <item>{Włączam|Wczytuję|Uruchamiam|Odpalam}__{podaną|usłyszaną}__stronę__[internetową]__&#8230;</item>
+    </string-array>
+    <string-array name="clipboard_text_request"><item>Powiedz tekst, który__{chcesz skopiować|ma być skopiowany|chcesz podyktować|ma być podyktowany}__do schowka.</item>
+        <item>{Zacznij|Rozpocznij}__dyktować__[teraz]__.</item>
+    </string-array>
+    <string-array name="text_copied_to_clipboard">
+        <item>{Usłyszan tekst|Tekst}__został__{skopiowany|podyktowany}__do schowka.</item>
+        <item>{Skopiowano|Podyktowano}__do schowka.</item>
+    </string-array>
+    <string-array name="last_outcoming_call">
+        <item>{Ostatnie połączenie wychodzące było|Ostatnio dzwoniono|Ostatni telefon był}__do %%NUMBER%%.</item>
+        <item>{Niedawno|Ostatnio}__{było połączenie wychodzące|był telefon}__do %%NUMBER%%.</item>
+    </string-array>
+    <string-array name="could_not_determine">
+        <item>{Niestety|Przykro mi|Przepraszam}__,__nie__{udało mi się|mogę|potrafię}__tego ustalić.</item>
+    </string-array>
+    <string-array name="calling">
+        <item>{Dzwonię do|Łączę z|Wykonuję telefon do|OK, dzwonię do}__%%CONTACT%%&#8230;</item>
+    </string-array>
+    <string-array name="call_willingness_question">
+        <item>Czy__[chcesz]__{zadzwonić|wykonać telefon}?</item>
+        <item>Dzwonić?</item>
+    </string-array>
+    <string-array name="last_incoming_call">
+        <item>{Ostatnie połączenie przychodzące było od|Ostatnio dzwonił|Ostatni telefon był}__od %%NUMBER%%.</item>
+        <item>{Niedawno|Ostatnio}__{było połączenie przychodzące|był telefon}__od %%NUMBER%%.</item>
+    </string-array>
+    <string-array name="restart_confirmation"><item>{Czy na pewno|Na pewno}__chcesz__{, żeby zrestartowano urządzenie|zrestartować urządzenie|restartu urządzenia}__?</item></string-array>
+    <string-array name="restart_error"><item>{Jeśli mnie wciąż słyszysz, to znaczy, że nie|Nie}__udało__[mi]__się__[niestety]__zrestartować urządzenia.__{Prawdopodobnie|Możliwe, że}__nie masz uprawnień roota.</item></string-array>
+    <string-array name="turn_off_confirmation"><item>{Czy na pewno|Na pewno}__chcesz__{, żeby wyłączono urządzenie|wyłączyć urządzenie}?</item></string-array>
+    <string-array name="turn_off_error"><item>{Jeśli mnie wciąż słyszysz, to znaczy, że nie|Nie}__udało__[mi]__się__[niestety]__wyłączyć urządzenia.__{Prawdopodobnie|Możliwe, że}__nie masz uprawnień roota.</item></string-array>
+    <string-array name="reminder_title_question">
+        <item>Jaki chcesz__{tytuł dla|nazwę}__{wydarzenia|zdarzenia|przypomnienia}__?</item>
+        <item>O czym mam przypomnieć?</item>
+        <item>{Podaj|Powiedz}__{tytuł|nazwę}__{zdarzenia|wydarzenia|przypomnienia}__.</item>
+    </string-array>
+    <string-array name="reminder_date_question">
+        <item>Kiedy ma być przypomnienie__[o tym zdarzeniu|o tym wydarzeniu]__?__{Podaj|Powiedz}__samą datę.</item>
+        <item>Kiedy mam przypomnieć__[o tym zdarzeniu|o tym wydarzeniu]__?__{Podaj|Powiedz}__samą datę.</item>
+    </string-array>
+    <string-array name="reminder_time_question">
+        <item>O której godzinie mam przypomnieć__[o tym zdarzeniu|o tym wydarzeniu]__?</item>
+        <item>O której godzinie ma być przypomnienie__[o tym zdarzeniu|o tym wydarzeniu]__?</item>
+    </string-array>
+    <string-array name="time_processing_error">
+        <item>Nie__{mogę|można}__przetworzyć__{podanej przez Ciebie|usłyszanej przeze mnie}__godziny. Spróbuj__{ponownie|jeszcze raz}__.</item>
+    </string-array>
+    <string-array name="reminder_confirmation">
+        <item>Czy__[mam]__{ustawić przypomnienie|przypomnieć}__o__{zdarzeniu|wydarzeniu}__\"%%TITLE%%\" %%DATE%% o__[godzinie]__%%TIME%%?</item>
+    </string-array>
+    <string-array name="reminder_saved">
+        <item>{Zdarzenie|Wydarzenie|Przypomnienie}__zapisane.</item>
+        <item>{OK|Spoko|W porządku}__,__przypomnę o tym__[zdarzeniu|wydarzeniu]__.</item>
+    </string-array>
+    <string-array name="reminder_save_error">
+        <item>Nie udało się zapisać__{zdarzenia|wydarzenia|przypomnienia}__.</item>
+        <item>Wystąpił błąd podczas zapisywania__{zdarzenia|wydarzenia|przypomnienia}__.</item>
+    </string-array>
+    <string-array name="reminder_correction_type_question">
+        <item>Co chcesz__{poprawić|zmienić}__?\n{1} Nic, {2} Tytuł, {3} Datę, {4} Godzinę, {5} Całość.</item>
+    </string-array>
+    <string-array name="reminder_not_saved">
+        <item>{OK|Spoko|W porządku}__, nie zapiszę więc tego__{zdarzenia|wydarzenia|przypomnienia}.</item>
+        <item>{OK|Spoko|W porządku}__, nie przypomnę o tym__[zdarzeniu|wydarzeniu]__.</item>
+    </string-array>
+    <string-array name="reminder_new_date_request">
+        <item>{Podaj|Powiedz}__[więc]__nową datę__[przypomnienia|wydarzenia|zdarzenia]__.</item>
+    </string-array>
+    <string-array name="reminder_new_title_request"><item>{Podaj|Powiedz}__[więc]__nowy tytuł__[przypomnienia|wydarzenia|zdarzenia]__.</item></string-array>
+    <string-array name="reminder_new_time_request"><item>{Podaj|Powiedz}__[więc]__nową godzinę__[przypomnienia|wydarzenia|zdarzenia]__.</item></string-array>
+    <string-array name="mail_recipient_question">
+        <item>Do kogo__[chcesz]__{wysłać|napisać}__{maila|e-maila}__?</item>
+    </string-array>
+    <string-array name="mail_topic_question">
+        <item>{Podaj|Powiedz}__temat__{e-maila|maila}__.</item>
+    </string-array>
+    <string-array name="mail_content_question">
+        <item>{Podaj|Powiedz}__{, co chcesz napisać w mailu|treść maila|, co chcesz napisać w e-mailu|treść e-maila}__.</item>
+    </string-array>
+    <string-array name="mail_confirmation_question">
+        <item>Czy__[chcesz]__wysłać__{e-maila|maila}__do %%RECIPIENT%% o temacie %%SUBJECT%% i treści %%CONTENT%%?</item>
+        <item>{E-mail|Mail}__do %%RECIPIENT%% o temacie %%SUBJECT%% i treści %%CONTENT%%:__[czy]__zgadza się?</item>
+    </string-array>
+    <string-array name="mail_sent">
+        <item>{OK|W porządku}__, przekazuję__[więc]__{e-maila|maila|wiadomość}__do programu pocztowego.</item>
+    </string-array>
+    <string-array name="mail_correction_type_question">
+        <item>Co chcesz__{poprawić|zmienić}__?\n{1} Nic, {2} E-mail odbiorcy, {3} Temat, {4} Treść.</item>
+    </string-array>
+    <string-array name="mail_not_sent">
+        <item>{OK|W porządku}__, nie wyślę__[więc]__tego__{maila|e-maila}__.</item>
+    </string-array>
+    <string-array name="mail_new_subject_request">
+        <item>{Podaj|Powiedz}__[więc]__{nowy|jeszcze raz}__temat__[maila|e-maila]__.</item>
+    </string-array>
+    <string-array name="mail_content_correction_type_question">
+        <item>Czy chcesz coś__{dopisać|dopowiedzieć}__?</item>
+    </string-array>
+    <string-array name="mail_new_address_request">
+        <item>{Podaj|Powiedz}__[więc]__{nowy|jeszcze raz}__adres e-mail__[odbiorcy]__.</item>
+    </string-array>
+    <string-array name="mail_new_content_request">
+        <item>{Podaj|Powiedz}__[więc]__{nową|jeszcze raz}__treść__{e-maila|maila}__.</item>
+    </string-array>
+    <string-array name="mail_content_to_add_request">
+        <item>{Powiedz|Podaj}__[więc]__, co__[chcesz]__dopisać.</item>
+        <item>Co__[chcesz|mam]__dopisać?</item>
+    </string-array>
+    <string-array name="data_save_error">
+        <item>Wystąpił błąd zapisu danych.__{Prawdopodobnie nie masz wystarczająco wolnego miejsca w pamięci urządzenia.|Ile masz wolnego miejsca w pamięci?|Upewnij się, że masz wolne miejsce w pamięci urządzenia.}</item>
+    </string-array>
+    <string-array name="no_photo_app_error">
+        <item>{Niestety|Przykro mi}__, nie masz__{żadnej aplikacji|żadnego programu|aplikacji|programu}__do__[robienia]__zdjęć.</item></string-array>
+    <string-array name="no_camera_error">
+        <item>{Niestety|Przykro mi}__,__{Twoje|to}__urządzenie nie__{ma|posiada}__{aparatu|kamery}__.</item>
+    </string-array>
+    <string-array name="default_number_set">
+        <item>{Ustawiono|Zapisano}__{numer domyślny|domyślny numer}__{dla|w przypadku}__{tego kontaktu|podanego kontaktu|tej osoby|podanej osoby}__.</item>
+    </string-array>
+    <string-array name="default_number_removed">
+        <item>{Usunięto|Skasowano}__{domyślny numer|numer domyślny}__{dla|w przypadku}__{tego kontaktu|podanego kontaktu|tej osoby|podanej osoby}__.</item>
+    </string-array>
+    <string-array name="receiving_mode_off">
+        <item>{OK|W porządku|Spoko}__,__{od teraz|już}__nie będę proponować czytania__{nowych|ostatnio odebranych}__{esemesów|wiadomości}__.</item>
+    </string-array>
+    <string-array name="receiving_mode_already_off">
+        <item>Już mam__{zakodowane|zapisane}__, żeby nie odbierać__[nowych|ostatnio odebranych]__{esemesów|wiadomości}__.</item>
+    </string-array>
+    <string-array name="receiving_mode_on">
+        <item>{OK|W porządku|Spoko}__,__[od]__teraz będę proponować czytanie__{każdego nowego esemesa|każdej ostatnio odebranej wiadomości|nowych esemesów|nowych wiadomości|ostatnio odebranych wiadomości|ostatnio odebranych esemesów}__.</item>
+    </string-array>
+    <string-array name="receiving_mode_already_on">
+        <item>Już mam__{zakodowane|zapisane}__, żeby odbierać__[nowe|ostatnio odebrane]__{esemesy|wiadomości}__.</item>
+    </string-array>
+    <string-array name="permissions_granted">
+        <item>{Uprawnienia przyznane|Przyznano uprawnienia|Przyznano wymagane uprawnienia}__.__{Wywołaj|Uruchom|Włącz}__daną funkcję__{jeszcze raz|ponownie}__.</item>
+    </string-array>
+    <string-array name="not_all_permissions_granted">
+        <item>Nie przyznano wszystkich__[wymaganych]__uprawnień. Dana funkcja nie będzie działać__[w 100%]__prawidłowo.</item>
+    </string-array>
+    <string-array name="starting_map">
+        <item>{Oto mapa|Poniżej mapa}__z__{podaną lokalizacją|usłyszaną lokalizacją|podanym miejscem|usłyszanym miejscem}__.</item>
+    </string-array>
+    <string-array name="starting_map_not_accurate_location">
+        <item>{Oto mapa|Poniżej mapa}__z__Twoją lokalizacją.__Może być__{niedokładna|nie w pełni dokładna}__.</item>
+    </string-array>
+    <string-array name="location_off">
+        <item>{Opcja|Możliwość}__[ustalenia]__lokalizacji jest niedostepna__{lub|bądź}__wyłączona.</item>
+    </string-array>
+    <string-array name="location_failed_timeout">
+        <item>{Niestety|Przykro mi|Przepraszam}__, ustalenie__{Twojej lokalizacji|Twojego położenia}__trwa__[już]__{zbyt|za}__długo.__[Spróbuj ponownie|Spróbuj jeszcze raz]__.</item>
+    </string-array>
+    <string-array name="silent_mode_off">
+        <item>Urządzenie odciszone.</item>
+        <item>Tryb cichy__{wyłączony|dezaktywowany}__.</item>
+    </string-array>
+    <string-array name="silent_mode_already_off">
+        <item>Urządzenie jest już odciszone.</item>
+        <item>Tryb cichy jest już__{wyłączony|nieaktywny}__.</item>
+    </string-array>
+    <string-array name="silent_mode_on">
+        <item>Urządzenie wyciszone.</item>
+        <item>Tryb cichy__{włączony|aktywowany}__.</item>
+    </string-array>
+    <string-array name="silent_mode_already_on">
+        <item>Urządzenie jest już wyciszone.</item>
+        <item>Tryb cichy jest już__{włączony|aktywny}__.</item>
+    </string-array>
+    <string-array name="timer_set">
+        <item>Minutnik__{ustawiony|włączony|nastawiony}__na</item>
+        <item>Odliczam__[od teraz]</item>
+    </string-array>
+    <string-array name="one_timer_only">
+        <item>Możesz mieć__{ustawiony|włączony}__{tylko|maksymalnie}__jeden minutnik.</item>
+    </string-array>
+    <string-array name="timer_off">
+        <item>Minutnik__{wyłączony|zatrzymany}__.</item>
+        <item>Wyłączono odliczanie.</item>
+    </string-array>
+    <string-array name="no_timer_set">
+        <item>Nie masz__{ustawionego|włączonego}__minutnika.</item>
+    </string-array>
+    <string-array name="received_sms_content">
+        <item>[Czytam:]__%%MESSAGE%%.__{Czy odpisać|Czy odpowiedzieć|Czy chcesz odpisać|Czy chcesz odpowiedzieć|Chcesz odpisać|Chcesz odpowiedzieć|Odpisać|Odpowiedzieć}__?</item>
+    </string-array>
+    <string-array name="read_last_sms_error">
+        <item>Nie udało__[mi]__się__{pobrać|odczytać}__ostatniego__[odebranego]__SMS-a.__{Być może|Możliwe, że}__urządzenie nie wspiera tej możliwości.</item>
+    </string-array>
+    <string-array name="last_sms_content">
+        <item>{Czytam ostatniego SMS-a, który jest od|Ostatni SMS od|Ostatnia wiadomość od|Czytam ostatnią wiadomość, która jest od}__%%SENDER%%: %%MESSAGE%%.__{Czy chcesz odpisać|Czy chcesz odpowiedzieć|Czy odpowiedzieć|Czy odpisać|Chcesz odpisać|Chcesz odpowiedzieć|Odpisać|Odpowiedzieć}__?</item>
+    </string-array>
+    <string-array name="note_correction_type_question">
+        <item>Co chcesz__{zmienić|poprawić}__?\n{1} Tytuł, {2} Treść.</item>
+    </string-array>
+    <string-array name="note_correction_type_question_when_creating">
+        <item>Co chcesz__{poprawić|zmienić}__?\n{1} Nic, {2} Tytuł, {3} Treść.</item>
+    </string-array>
+    <string-array name="no_note_title_error">
+        <item>{Nie podano|Nie ma|Brak podanego}__tytułu notatki.</item>
+    </string-array>
+    <string-array name="new_note_title_request">
+        <item>{W takim razie powiedz|Powiedz|W takim razie podaj|Podaj}__nowy tytuł notatki \"%%TITLE%%\".</item>
+    </string-array>
+    <string-array name="new_note_content_request">
+        <item>{W takim razie powiedz|Powiedz|W takim razie podaj|Podaj}__nową treść notatki \"%%TITLE%%\".</item>
+    </string-array>
+    <string-array name="note_title_change_confirmation_question">
+        <item>Czy__[chcesz|mam]__{zmienić|poprawić}__tytuł notatki \"%%TITLE%%\" na \"%%NEW_TITLE%%\"?</item>
+    </string-array>
+    <string-array name="note_content_change_confirmation_question">
+        <item>Czy__[chcesz|mam]__{zmienić|poprawić}__treść notatki \"%%TITLE%%\" na \"%%NEW_CONTENT%%\"?</item>
+    </string-array>
+    <string-array name="note_changed">
+        <item>Notatka__{zmieniona|poprawiona}__.</item>
+        <item>{Zmieniono|Poprawiono}__[tę]__notatkę.</item>
+    </string-array>
+    <string-array name="note_not_changed">
+        <item>{OK|W porządku|Spoko}__,__{Twoja|ta}__notatka__{pozostanie nietknięta|nie będzie tknięta|nie będzie zmieniona|pozostanie niezmieniona}__.</item>
+    </string-array>
+    <string-array name="note_deleted">
+        <item>Notatka__{skasowana|usunięta}__.</item>
+        <item>{Skasowano|Usunięto}__[tę]__notatkę.</item>
+    </string-array>
+    <string-array name="note_not_found">
+        <item>Nie__{mogę|można}__{znaleźć|odszukać}__notatki o__{podanym przez Ciebie|podanym|tym}__tytule.</item>
+        <item>Nie__{ma|masz}__notatki o__{podanym|tym}__tytule.</item>
+    </string-array>
+    <string-array name="no_notes_saved">
+        <item>Nie masz__[w tej chwili|teraz]__{żadnych|jakichkolwiek}__notatek.</item>
+    </string-array>
+    <string-array name="note_content_request">
+        <item>{Podaj|Powiedz}__treść notatki.</item>
+    </string-array>
+    <string-array name="note_title_request">
+        <item>Jak__[chcesz]__zatytułować__[tę]__notatkę?</item>
+        <item>{Podaj|Powiedz}__tytuł notatki.</item>
+        <item>Jaki chcesz tytuł__[dla tej]__notatki?</item>
+    </string-array>
+    <string-array name="note_save_confirmation_question">
+        <item>Czy__[chcesz|mam]__zapisać notatkę o tytule \"%%TITLE%%\" i treści \"%%CONTENT%%\"?</item>
+        <item>Notatka o tytule \"%%TITLE\" i treści \"%%CONTENT%%\".__{Zgadza się|Czy się zgadza|Czy jest ona poprawna|Poprawnie}__?</item>
+    </string-array>
+    <string-array name="note_saved">
+        <item>Notatka__{zapisana|zapamiętana}__.</item>
+        <item>{Zapisano|Zapamiętano}__notatkę.</item>
+    </string-array>
+    <string-array name="note_correction_question">
+        <item>Czy__[w takim razie]__[chcesz]__ją__{poprawić|zmienić}__?</item>
+    </string-array>
+    <string-array name="no_place_provided">
+        <item>Aby można było zlokalizować__{miejsce|miejscowość}__, musisz__[najpierw]__{podać|powiedzieć}__jego nazwę.</item>
+    </string-array>
+    <string-array name="wifi_already_on">
+        <item>Wi-Fi jest już__{włączone|aktywne}__.</item>
+    </string-array>
+    <string-array name="wifi_on">
+        <item>{OK|Spoko|W porządku|Gotowe}__, Wi-Fi powinno być__[teraz]__{włączone|aktywne}__.</item>
+    </string-array>
+    <string-array name="wifi_already_off">
+        <item>Wi-Fi jest już__{wyłączone|nieaktywne}__.</item>
+    </string-array>
+    <string-array name="wifi_off">
+        <item>{OK|Spoko|W porządku|Gotowe}__, Wi-Fi powinno być__[teraz]__{wyłączone|nieaktywne}__.</item>
+    </string-array>
+    <string-array name="bluetooth_already_on">
+        <item>Bluetooth jest już__{włączony|aktywny}__.</item>
+    </string-array>
+    <string-array name="bluetooth_on">
+        <item>{OK|Spoko|W porządku|Gotowe}__, Bluetooth powinien być__[teraz]__{włączony|aktywny}__.</item>
+    </string-array>
+    <string-array name="bluetooth_already_off">
+        <item>Bluetooth jest już__{wyłączony|nieaktywny}__.</item>
+    </string-array>
+    <string-array name="bluetooth_off">
+        <item>{OK|W porządku|Spoko|Gotowe}__, Bluetooth powinien być__[teraz]__{wyłączony|nieaktywny}__.</item>
+    </string-array>
+    <string-array name="no_mode_provided"><item>Nie wiem__[do końca]__, co chcesz__{wyłączyć|dezaktywować}__.</item></string-array>
+    <string-array name="weather_forecast_7_days_max">
+        <item>Mogę podać prognozę__[pogody]__maksymalnie__{7 dni|tydzień}__naprzód.</item>
+        <item>Prognoza__[pogody]__jest dostępna maksymalnie__{7 dni|tydzień}__naprzód.</item>
+    </string-array>
+    <string-array name="place_not_found">
+        <item>Nie__{znaleziono|odnaleziono}__{podanej miejscowości|podanego miejsca}__.</item>
+    </string-array>
+    <string-array name="could_not_determine_place_coordinates">
+        <item>Nie można ustalić współrzędnych__{miejscowości|miejsca}__. Czy nazwa jest dobrze__{podana|powiedziana}__? Czy masz zainstalowaną nawigację__{bądź|lub}__mapy?</item>
+    </string-array>
+    <string-array name="weather_forecast_place_question">
+        <item>{W jakiej miejscowości|Gdzie}__[mam]__sprawdzić prognozę__[pogody]__?</item>
+    </string-array>
+    <string-array name="alarm_time_question">
+        <item>Na którą__[godzinę]__[mam]__{ustawić|włączyć}__{alarm|budzik}__?</item>
+    </string-array>
+    <string-array name="alarm_set">
+        <item>{Ustawiono|Włączono}__{budzik|alarm}__na %%TIME%%.</item>
+    </string-array>
+    <string-array name="setting_alarm_error">
+        <item>{Niestety|Przykro mi|Przepraszam}__, wystąpił błąd podczas ustawiania__{budzika|alarmu}__.</item>
+    </string-array>
+    <string-array name="search_query_question">
+        <item>Co__[chcesz]__wyszukać?</item>
+        <item>Jaką frazę wyszukać?</item>
+        <item>Jakiej frazy poszukać?</item>
+    </string-array>
+    <string-array name="searching"><item>Szukam__[podanej frazy]__&#8230;</item></string-array>
+    <string-array name="battery_level">
+        <item>{Pozostało|Jest|Jest jeszcze}__%%BATTERY_LEVEL%% baterii.</item>
+    </string-array>
+    <string-array name="battery_fully_charged">
+        <item>Bateria jest__{w pełni|w 100%}__naładowana.</item>
+        <item>Bateria jest pełna.</item>
+    </string-array>
+    <string-array name="navigation_destiny_question">
+        <item>Dokąd chcesz__{pojechać|się udać}__?</item>
+        <item>Dokąd ustawić nawigację?</item>
+    </string-array>
+    <string-array name="contact_no_phone_number">
+        <item>{Podany przez Ciebie|Podany|Ten}__kontakt nie ma__[żadnego|jakiegokolwiek]__numeru telefonu.</item>
+    </string-array>
+    <string-array name="message_recipient_question">
+        <item>Do kogo__[chcesz]__{wysłać|napisać}__{esemesa|wiadomość}__?</item>
+    </string-array>
+    <string-array name="message_content_question">
+        <item>Co__[chcesz]__napisać?</item>
+    </string-array>
+    <string-array name="message_confirmation">
+        <item>Czy__[mam|chcesz]__wysłać__{esemesa|wiadomość}__do %%RECIPIENT%% o treści %%CONTENT%%?</item>
+        <item>{SMS|Wiadomość}__do %%RECIPIENT%% o treści %%CONTENT%%.__{Czy się zgadza|Zgadza się|Czy jest poprawnie}__?</item>
+    </string-array>
+    <string-array name="message_sent">
+        <item>Esemes wysłany.</item>
+        <item>Wiadomość wysłana.</item>
+        <item>Wysłano SMS-a.</item>
+        <item>Wysłano wiadomość.</item>
+    </string-array>
+    <string-array name="sim_card_message_question">
+        <item>{Przy pomocy|Z}__której karty__[SIM]__[chcesz]__wysłać__{esemesa|wiadomość}__?</item>
+    </string-array>
+    <string-array name="sim_position_question">
+        <item>{Powiedz|Podaj}__numer pozycji.</item>
+    </string-array>
+    <string-array name="sim_card_description">
+        <item>Karta w slocie nr %%SLOT_NUMBER%%</item>
+    </string-array>
+    <string-array name="opening_message_app">
+        <item>Otwieram więc__{aplikację|program}__do esemesów z podaną__[przez Ciebie]__wiadomością&#8230;</item>
+    </string-array>
+    <string-array name="message_correction_question">
+        <item>Czy__[w takim razie]__[chcesz] poprawić__{SMS-a|wiadomość}__?</item>
+    </string-array>
+    <string-array name="message_correction_type_question">
+        <item>Co__[mam|chcesz]__[więc]__zrobić?\n{1} Nic, {2} Dopisać treść, {3} Napisać treść od nowa.</item>
+    </string-array>
+    <string-array name="message_add_content_request">
+        <item>{OK|W porządku|Spoko},__{podaj|powiedz}__treść do dopisania.</item>
+        <item>{Podaj|Powiedz}__treść do dopisania.</item>
+        <item>Co__[chcesz|mam]__{dopisać|dodać|dopowiedzieć}__?</item>
+    </string-array>
+    <string-array name="message_new_content_request">
+        <item>{OK|W porządku|Spoko}__,__{podaj|powiedz}__{nową|jeszcze raz}__treść__{SMS-a|wiadomości}__.</item>
+        <item>{Podaj|Powiedz}__{jeszcze raz|nową}__treść__{SMS-a|wiadomości}__.</item>
+    </string-array>
+    <string-array name="call_recipient_question">
+        <item>Do kogo__[chcesz]__{zadzwonić|wykonać telefon}__?</item>
+    </string-array>
+    <string-array name="math_expression_processing_error">
+        <item>Nie mogę przetworzyć__{podyktowanego przez Ciebie|podanego przez Ciebie|usłyszanego}__wyrażenia.</item>
+    </string-array>
+    <string-array name="calculation_error">
+        <item>{Przepraszam|Przykro mi|Niestety}__, gdy próbowano to__{obliczyć|policzyć}__, wystąpił błąd.</item>
+        <item>Wystąpił błąd podczas__{obliczeń|liczenia}__.</item>
+    </string-array>
+    <string-array name="starting_navigation">
+        <item>{Za chwilę|Zaraz}__nawigacja__{wytyczy|ustali|powinna pokazać}__{trasę|drogę}__do %%PLACE%%.</item>
+        <item>{Włączam|Uruchamiam}__nawigację do %%PLACE%%&#8230;</item>
+    </string-array>
+    <string-array name="cancelled">
+        <item>{Cofnięto|Anulowano}__{polecenie|wykonywaną funkcję}__.</item>
+    </string-array>
+    <string-array name="not_understood">
+        <item>{Przykro mi|Niestety|Przepraszam}__,__{nie rozumiem|nie wiem, o co Ci chodzi}__.</item>
+        <item>{Nie rozumiem|Nie wiem}__,__co__{chcesz powiedzieć|masz na myśli}__.</item>
+    </string-array>
+    <string-array name="possibilities_question">
+        <item>{Potrafię|Umiem}__wiele rzeczy, aż nie sposób ich__{tu wymienić|teraz powiedzieć}__. Czy chcesz__[może]__{zobaczyć listę|zajrzeć do listy}__dostępnych funkcji wraz z przykładowymi__{poleceniami|wypowiedziami}__?</item>
+        <item>Najlepiej będzie, jeśli__{zobaczysz listę|zerkniesz do listy}__[dostępnych]__funkcji__[wraz]__z przykładowymi__{poleceniami|wypowiedziami}__.__{Czy chcesz|Chcesz}__zrobić to teraz?</item>
+    </string-array>
+    <string-array name="division_by_zero_error">
+        <item>Nie można dzielić przez zero!</item>
+        <item>Nastąpiło podzielenie przez zero.</item>
+        <item>Dzielenie przez zero jest niemożliwe!</item>
+    </string-array>
+    <string-array name="no_timer_set_or_no_time_provided">
+        <item>Nie masz__{ustawionego|włączonego}__minutnika lub nie podano czasu minutnika.</item>
+        <item>Nie__{włączono|ustawiono}__minutnika lub nie podano jego czasu__[trwania]__.</item>
+    </string-array>
+    <string-array name="position_number_required">
+        <item>Musisz__{podać|powiedzieć}__numer pozycji.</item>
+    </string-array>
+    <string-array name="wikipedia_check_error">
+        <item>Wystąpił błąd podczas sprawdzania Wikipedii.</item>
+        <item>{Niestety|Przykro mi|Przepraszam}__, nie udało__[mi]__się sprawdzić Wikipedii.</item>
+    </string-array>
+    <string-array name="do_not_know">
+        <item>Nie wiem.</item>
+        <item>Nie mam pojęcia.</item>
+    </string-array>
+    <string-array name="last_sms_content_answer"><item>Czytam__{ostatniego SMS-a|ostatnią wiadomość}__. Czy chcesz odpisać?</item></string-array>
+    <string-array name="received_message_content_answer">
+        <item>Czytam.__{Czy chcesz odpisać|Czy odpisać|Chcesz odpisać|Odpisać|Czy chcesz odpowiedzieć|Czy odpowiedzieć|Chcesz odpowiedzieć|Odpowiedzieć}__?</item>
+    </string-array>
+    <string-array name="message_confirmation_answer">
+        <item>Czy__[chcesz|mam]__wysłać__{SMS-a|wiadomość}__?</item>
+    </string-array>
+    <string-array name="note_save_confirmation_answer">
+        <item>Czy__[chcesz|mam]__zapisać notatkę?</item>
+    </string-array>
+    <string-array name="note_title_change_confirmation_answer">
+        <item>Czy__[chcesz|mam]__zmienić tytuł notatki?</item>
+    </string-array>
+    <string-array name="note_content_change_confirmation_answer">
+        <item>Czy__[chcesz|mam]__zmienić treść notatki?</item>
+    </string-array>
+    <string-array name="reading"><item>Czytam:</item></string-array>
+    <string-array name="note"><item>Notatka:</item></string-array>
+    <string-array name="all_notes"><item>Wszystkie notatki:</item></string-array>
+    <string-array name="reminder_confirmation_answer">
+        <item>Czy__[mam|chcesz]__{ustawić|zapisać}__przypomnienie?</item>
+    </string-array>
+    <string-array name="spotify_authorization_required">
+        <item>Musisz zalogować się do Spotify.__{Wejdź do sekcji|Odwiedź sekcję}__\"Usługi zewnętrzne\" w ustawieniach__[asystenta]__.</item>
+    </string-array>
+    <string-array name="spotify_connection_error">
+        <item>Wystąpił błąd podczas komunikacji ze Spotify.</item>
+        <item>{Przykro mi|Przepraszam|Niestety},__nie udało__[mi]__się skomunikować ze Spotify.</item>
+    </string-array>
+    <string-array name="spotify_connection_error_with_possible_reasons">
+        <item>{Prawdopodobnie|Najprawdopodobniej}__nie masz włączonego Spotify na żadnym urządzeniu lub nie__{masz|posiadasz}__[aktywnego]__konta premium.</item>
+    </string-array>
+    <string-array name="spotify_playing">
+        <item>{Odtwarzam|Oto}__%%NAME%%__{autorstwa|w wykonaniu|:}__%%ARTIST%%.</item>
+    </string-array>
+    <string-array name="spotify_playing_no_artist_name">
+        <item>{Odtwarzam|Oto}__%%NAME%%.</item>
+    </string-array>
+    <string-array name="spotify_nothing_found">
+        <item>Nic nie znaleziono w Spotify.</item>
+        <item>Nie__{ma|znaleziono|odnaleziono}__{usłyszanej|podanej}__frazy w Spotify.</item>
+    </string-array>
+    <string-array name="playing_in_seconds">
+        <item>Poczekaj chwilę&#8230;</item>
+        <item>Czekaj&#8230;</item>
+    </string-array>
+    <string-array name="hours_remaining"><item>%%HOURS%% godz.</item></string-array>
+    <string-array name="minutes_remaining"><item>%%MINUTES%% min.</item></string-array>
+    <string-array name="seconds_remaining"><item>%%SECONDS%% sek.</item></string-array>
+    <string-array name="alarm_24_h_error">
+        <item>Nie__{można|mogę}__{ustawić|włączyć}__{alarmu|budzika}__na 24 godziny naprzód lub więcej.</item>
+    </string-array>
+    <string-array name="deleting_alarm_error">
+        <item>Wystąpił błąd podczas__{usuwania|wyłączania}__{alarmu|budzika}__.</item>
+        <item>{Przykro mi|Niestety|Przepraszam}__, nie udało__[mi]__się__{usunąć|wyłączyć}__{alarmu|budzika}__.</item>
+    </string-array>
+    <string-array name="alarm_turned_off">
+        <item>{Alarm|Budzik}__o %%TIME%%__{wyłączony|usunięty}__.</item>
+        <item>{Alarm|Budzik}__o %%TIME%% już nie zadzwoni.</item>
+        <item>{Wyłączono|Usunięto}__{alarm|budzik}__o %%TIME%%.</item>
+    </string-array>
+    <string-array name="alarm_provided_not_set">
+        <item>Nie__{masz|ma}__{ustawionego|włączonego}__{takiego|podanego}__{budzika|alarmu}__.</item>
+    </string-array>
+    <string-array name="alarm_turning_off_error">
+        <item>Wystąpił błąd podczas__{wyłączania|usuwania}__{alarmu|budzika}. Dezaktywuj go ręcznie w ustawieniach asystenta.</item>
+    </string-array>
+    <string-array name="no_alarms_set">
+        <item>Nie__{masz|ma}__{żadnego|jakiegokolwiek}__{ustawionego|włączonego}__{budzika|alarmu}__.</item>
+    </string-array>
+    <string-array name="no_alarms_set_in_assistant">
+        <item>Nie__{masz|ma}__{żadnych|jakichkolwiek}__{ustawionych|włączonych}__{budzików|alarmów}__w asystencie.</item>
+    </string-array>
+    <string-array name="timer_paused">
+        <item>Minutnik__{wstrzymany|zatrzymany}__.</item>
+        <item>Wstrzymano__{minutnik|odliczanie}__.</item>
+    </string-array>
+    <string-array name="timer_resumed">
+        <item>Minutnik wznowiony.</item>
+        <item>Wznowiono__{minutnik|odliczanie}__.</item>
+    </string-array>
+    <string-array name="no_contact_at_all"><item>{Żaden kontakt|Żadna osoba}__z__{powyższych|podanych}</item></string-array>
+    <string-array name="connection_error">
+        <item>{Przepraszam|Niestety|Przykro mi}__, wystąpił błąd podczas połączenia.</item>
+        <item>Wystąpił błąd połączenia.</item>
+    </string-array>
+</resources>

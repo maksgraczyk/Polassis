@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".misc.Assistant">
+    <item
+        android:id="@+id/assistantSettings"
+        android:orderInCategory="100"
+        android:title="settings"
+        />
+    <item
+        android:id="@+id/possibilities"
+        android:orderInCategory="110"
+        android:title="possibilities"
+        />
+    <item
+        android:id="@+id/submitBug"
+        android:orderInCategory="130"
+        android:title="bug_or_suggestion"
+        />
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="150"
+        android:title="about"
+    />
+</menu>

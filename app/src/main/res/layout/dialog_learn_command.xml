@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/commandToBeLearntTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="command_to_be_learnt"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/commandToBeLearnt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="required"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/commandToBeExecutedTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="command_to_be_executed"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/commandToBeExecuted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="required"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/commandTitleLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="command_title"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/commandTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="required"
+        android:inputType="text" />
+</LinearLayout>

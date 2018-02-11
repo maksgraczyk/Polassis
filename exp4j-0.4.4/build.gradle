@@ -1,0 +1,2 @@
+configurations.create("default")
+artifacts.add("default", file('exp4j-0.4.4.jar'))
