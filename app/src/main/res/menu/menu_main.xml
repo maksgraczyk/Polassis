@@ -12,11 +12,6 @@
         android:title="possibilities"
         />
     <item
-        android:id="@+id/submitBug"
-        android:orderInCategory="130"
-        android:title="bug_or_suggestion"
-        />
-    <item
         android:id="@+id/about"
         android:orderInCategory="150"
         android:title="about"
