@@ -32,8 +32,8 @@
         android:text="app_details"
         android:id="@+id/appDetails"
         android:layout_below="@+id/appDescription"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
         android:layout_marginTop="25dp" />
 
     <Button
