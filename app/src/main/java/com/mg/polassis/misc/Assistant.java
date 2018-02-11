@@ -1208,10 +1208,6 @@ public class Assistant extends Activity implements PopupMenu.OnMenuItemClickList
                 startActivity(intent);
                 break;
 
-            case R.id.submitBug:
-
-                break;
-
             case R.id.about:
                 intent = new Intent(Assistant.this, AboutActivity.class);
                 exitMode = true;
@@ -1792,7 +1788,6 @@ public class Assistant extends Activity implements PopupMenu.OnMenuItemClickList
 
         menu.findItem(R.id.assistantSettings).setTitle(Translations.getStringResource(Assistant.this, "settings"));
         menu.findItem(R.id.possibilities).setTitle(Translations.getStringResource(Assistant.this, "possibilities"));
-        menu.findItem(R.id.submitBug).setTitle(Translations.getStringResource(Assistant.this, "bug_or_suggestion"));
         menu.findItem(R.id.about).setTitle(Translations.getStringResource(Assistant.this, "about"));
         popup.show();
     }
