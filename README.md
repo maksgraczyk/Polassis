@@ -2,7 +2,7 @@
 A personal voice assistant for Android devices. This is the most up-to-date development version. There are no ads and donation possibilities. Polish is the only supported language at the moment (in both GUI and command recognition).
 
 ## Support
-This project is freezed. Therefore, I provide very limited support. I will not answer any e-mails with comments about either stable or development versions. If you find any bugs or have any suggestions, feel free to report them in "Issues", but I cannot guarantee that I will respond to the reports within reasonable time.
+This project is freezed. Therefore, I provide very limited support. I will not answer any e-mails with comments about either stable or development versions (except for copyright/acknowledgement issues: see "Third party resources used"). If you find any bugs or have any suggestions, feel free to report them in "Issues", but I cannot guarantee that I will respond to the reports within reasonable time.
 
 ## Installation instructions
 Please note that this is a **development** version: bugs, empty screens and unfinished functions are *normal* here. However, as I aimed for fixing major bugs present in the latest stable version (1.0.7) before publishing the source code, the development version **may** work better than the stable one in your device. If this is the case, you are lucky!
@@ -29,7 +29,17 @@ There are also pre-built releases which can be installed directly on Android dev
 (under construction)
 
 ## Third party resources used
-(under construction)
+If you see that your work is used in any format in Polassis without the credit below, please let me know: I will add the acknowledgement. Thank you!
+
+### Libraries
+* Apache Commons IO 2.6: under [the Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0)
+* PocketSphinx: under its license (see LICENSE in the pocketsphinx-android-5prealpha-nolib folder)
+* exp4j 0.4.4: under [the Apache 2.0 license](https://www.objecthunter.net/exp4j/license.html)
+
+### Icons
+* [Icon made by Elegant Themes](http://www.flaticon.com/free-icon/mic_10032): under [the CC BY 3.0 license](https://creativecommons.org/licenses/by/3.0/)
+* Icons made by Google: under [the CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/)
+* Icons made by jxnblk: under [the MIT license](https://opensource.org/licenses/MIT)
 
 ## License
 Polassis is licensed under the GNU General Public License v3.0. Please see LICENSE for details.
