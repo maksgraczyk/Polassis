@@ -1,13 +1,13 @@
 # Polassis
-A personal voice assistant for Android devices. This is the most up-to-date development version. There are no ads and donation possibilities. Polish is the only supported language at the moment (in both GUI and command recognition).
+A personal voice assistant for Android devices. Polish is the only supported language at the moment (in both GUI and command recognition).
 
 ## Support
 This project is frozen. Therefore, I provide very limited support. I will not answer any e-mails with comments about either stable or development versions (except for copyright/acknowledgement issues: see "Third party resources used"). If you find any bugs or have any suggestions, feel free to report them in "Issues", but I cannot guarantee that I will respond to the reports within reasonable time.
 
 ## Installation instructions
-Please note that this is a **development** version: bugs, empty screens and unfinished functions are *normal* here. However, as I aimed for fixing major bugs present in the latest stable version (1.0.7) before publishing the source code, the development version **may** work better than the stable one in your device. If this is the case, you are lucky!
+The source code is the most up-to-date **development** version and does not have any ads and donation possibilities. Please note that bugs, empty screens and unfinished functions are *normal* here. However, as I aimed for fixing major bugs present in the latest stable version (1.0.7) before publishing the source code, the development version **may** work better than the stable one in your device. If this is the case, you are lucky!
 
-The development version runs on Android 4.1+. Android versions supported by all other releases available for download are stated in their description.
+The development version runs on Android 4.1+. There are also some stable and old beta versions available for download as APK files (see: Pre-bulit releases). Android versions supported by them are stated in their description.
 
 The permissions required are discussed in Polish at https://pastebin.com/cv7r22Za.
 
@@ -24,7 +24,7 @@ If you are familiar with Android programming and want to work with the source co
 (under construction)
 
 ### Pre-built releases
-There are also pre-built releases which can be installed directly on Android devices without compiling the source code. They are available as APK files in "Releases". Your device must allow installing applications from unknown sources: you can change this behaviour in Android settings.
+There are also pre-built releases which can be installed directly on Android devices without compiling the source code. They are available as APK files in "Releases". The development version is included. Your device must allow installing applications from unknown sources: you can change this behaviour in Android settings.
 
 ## How to use
 The GUI is designed to be as easy-to-use and accessible as possible. To begin, tap a green microphone button at the bottom of the screen: when it turns red, say a command. A system speech recognition service (usually Google) processes your voice and returns the text which in turn is interpreted by the application. Alternatively, enter a command manually (using a big text box next to the microphone button) and press ENTER or tap the microphone button.
@@ -33,6 +33,7 @@ If you want to access settings, tap the gearwheel icon in the bottom-left corner
 
 As stated in the introduction, only Polish is supported at the moment.
 
+### Functions
 This is the list of activities Polassis can/could do (all examples in Polish):
 * Saying a specified phrase (e.g. "powiedz ja mam kota")
 * Reading the last received SMS (e.g. "przeczytaj ostatniego SMS-a")
@@ -88,10 +89,44 @@ This is the list of activities Polassis can/could do (all examples in Polish):
 * Dictating to the clipboard (e.g. "podyktuj do schowka")
 * Presenting the possibilities of Polassis (**not implemented**)
 
+Nearly all stable and old beta releases have also a possibility to "redirect" some functions to a PC/Mac (e.g. if you want to check something on Wikipedia, Polassis can tell your computer to open the website). If you want to use that, you must trigger the appropriate option in the Polassis settings and set up the server in your computer. The server is called Polassis Server and can be downloaded from http://polassis.pl/download/PolassisServer.jar (its source code will be published under GNU GPL v3 by the end of July 2018 if I still have access to it).
+
+### Intents
+Polassis has a few intents which can be called externally, e.g. by Tasker or Llama:
+* Starting the assistant:
+  * Type: start activity
+  * Package name: com.mg.polassis
+  * Class name: com.mg.polassis.misc.Assistant
+  * Extras: none
+* Activating the assistant (starting the assistant and a speech recognition service):
+  * Type: start service
+  * Package name: com.mg.polassis
+  * Class name: com.mg.polassis.service.BackgroundSpeechRecognitionService
+  * Extras: none
+* Activating the assistant in the classic mode (via the activity):
+  * Type: start activity
+  * Package name: com.mg.polassis
+  * Class name: com.mg.polassis.misc.Assistant
+  * Extras:
+    * Boolean: "activation" = true
+* Starting the assistant and telling it a specific command:
+  * Type: start activity
+  * Package name: com.mg.polassis
+  * Class name: com.mg.polassis.misc.Assistant
+  * Extras:
+    * String: "command" = any command, e.g. "włącz YouTube" (in Polish)
+* Starting the assistant and telling it a specific command requiring the separate confirmation:
+  * Type: start activity
+  * Package name: com.mg.polassis
+  * Class name: com.mg.polassis.misc.Assistant
+  * Extras:
+    * String: "command" = any command, e.g. "włącz YouTube" (in Polish)
+    * Boolean: "ask_for_confirmation" = true
+
 ### Troubleshooting
 * If the microphone button turns grey and is stuck in this state:
   * Check whether speech recognition is installed and set up properly in your device. You might have to grant the speech recognition service an audio recording permission if you use Android 6.0+.
-  * Experimenting with Polassis settings is worthwhile (e.g. triggering the option "Wymusz. silnika Google" which is responsible for forcing using the Google speech-to-text engine)
+  * Experimenting with the Polassis settings is worthwhile (e.g. triggering the option "Wymusz. silnika Google" which is responsible for forcing using the Google speech-to-text engine)
   * If you use text-to-speech, check whether a TTS service is installed and set up properly in your device.
   * If you use Android 6.0+, check what permissions Polassis has been granted in your device.
 
