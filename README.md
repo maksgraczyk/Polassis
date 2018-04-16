@@ -9,6 +9,8 @@ Please note that this is a **development** version: bugs, empty screens and unfi
 
 The development version runs on Android 4.1+. Android versions supported by all other releases available for download are stated in their description.
 
+The permissions required are discussed in Polish at https://pastebin.com/cv7r22Za.
+
 ### With Android Studio
 If you are familiar with Android programming and want to work with the source code, this is the quickest and recommended method. If not, see "Pre-built releases". The instructions below apply to Android Studio 3.0.1, but they should work flawlessly in other versions as well (minor changes might be required, please refer to the manual or online resources for your version of the IDE if necessary).
 
