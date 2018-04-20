@@ -1,6 +1,8 @@
 # Polassis
 A personal voice assistant for Android devices. Polish is the only supported language at the moment (in both GUI and command recognition).
 
+[Read in Polish / Przeczytaj po polsku](https://github.com/maksgraczyk/Polassis/blob/master/README.pl-PL.md)
+
 ## Support
 This project is frozen. Therefore, I provide very limited support. I will not answer any e-mails with comments about either stable or development versions (except for copyright/acknowledgement issues: see "Third party resources used"). If you find any bugs or have any suggestions, feel free to report them in "Issues", but I cannot guarantee that I will respond to the reports within reasonable time.
 
