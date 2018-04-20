@@ -4,7 +4,7 @@
 A personal voice assistant for Android devices. Polish is the only supported language at the moment (in both GUI and command recognition).
 
 ## Support
-This project is frozen. Therefore, I provide very limited support. I will not answer any e-mails with comments about either stable or development versions (except for copyright/acknowledgement issues: see "Third party resources used"). If you find any bugs or have any suggestions, feel free to report them in "Issues", but I cannot guarantee that I will respond to the reports within reasonable time.
+This project is currently frozen. Therefore, I provide very limited support. I will not answer e-mails with comments about either stable or development versions (except for copyright/acknowledgement issues: see "Third party resources used"). If you find any bugs or have any suggestions, feel free to report them in "Issues", but I cannot guarantee that I will respond to the reports within reasonable time.
 
 ## Installation instructions
 The source code is the most up-to-date **development** version and does not have any ads and donation possibilities. Please note that bugs, empty screens and unfinished functions are *normal* here. However, as I aimed for fixing major bugs present in the latest stable version (1.0.7) before publishing the source code, the development version **may** work better than the stable one in your device. If this is the case, you are lucky!
@@ -54,19 +54,19 @@ This is the list of activities the development version of Polassis can/could do 
 * Obtaining a weather forecast (e.g. "jaka pogoda za tydzień Berlin") (**a Dark Sky API key is required: it is not provided in the code, see app/src/main/res/values/constants.xml**)
 * Timer:
   * Setting (e.g. odmierz 3 godziny 30 minut")
-  * Pausing/Resuming (e.g. "zatrzymaj minutnik", "wznów minutnik")
+  * Pausing/Resuming (e.g. pausing: "zatrzymaj minutnik", resuming: "wznów minutnik")
   * Checking the time left (e.g. "ile jeszcze mam czasu")
 * Calling (e.g. "chcę zadzwonić pod numer 123456")
 * Doing mathematical calculations (e.g. "siedem do kwadratu przemnożone przez cztery podzielić na sześć")
 * Determining the day of week on a specified date (e.g. "który to był 3 stycznia 2015 roku")
 * Controlling a music player:
-  * Pausing/Resuming (e.g. "wznów odtwarzanie", "pauza")
+  * Pausing/Resuming (e.g. pausing: "pauza", resuming: "wznów odtwarzanie")
   * Repeating (e.g. "odtwórz jeszcze raz")
   * Next track (e.g. "kolejna piosenka")
   * Previous track (e.g. "wróć do poprzedniej muzyki")
 * Playing music on Spotify (e.g. "odtwórz Too Many Broken Hearts") (**not implemented**)
-* Turning on/off a torch (e.g. "włącz latarkę", "nie chcę latarki")
-* Triggering Wi-Fi/Bluetooth (e.g. "włącz Wi-Fi", "włącz Bluetooth", "możesz wyłączyć Wi-Fi", "wyłącz Bluetooth")
+* Turning on/off a torch (e.g. turning on: "włącz latarkę", turning off: "nie chcę latarki")
+* Triggering Wi-Fi/Bluetooth (e.g. Wi-Fi on: "włącz Wi-Fi", Bluetooth on: "włącz Bluetooth", Wi-Fi off: "możesz wyłączyć Wi-Fi", Bluetooth off: "wyłącz Bluetooth")
 * Turning on the silent mode (e.g. "wycisz telefon")
 * Turning off the silent mode (e.g. "wyłącz tryb cichy")
 * Opening a webpage (e.g. "otwórz google.com")
