@@ -34,7 +34,7 @@ If you want to access settings, tap the gearwheel icon in the bottom-left corner
 As stated in the introduction, only Polish is supported at the moment.
 
 ### Functions
-This is the list of activities Polassis can/could do (all examples in Polish):
+This is the list of activities the development version of Polassis can/could do (all examples in Polish):
 * Saying a specified phrase (e.g. "powiedz ja mam kota")
 * Reading the last received SMS (e.g. "przeczytaj ostatniego SMS-a")
 * Determining the last incoming call (e.g. "kto do mnie ostatnio dzwonił")
@@ -90,6 +90,11 @@ This is the list of activities Polassis can/could do (all examples in Polish):
 * Presenting the possibilities of Polassis (**not implemented**)
 
 Nearly all stable and old beta releases have also a possibility to "redirect" some functions to a PC/Mac (e.g. if you want to check something on Wikipedia, Polassis can tell your computer to open the website). If you want to use that, you must trigger the appropriate option in the Polassis settings and set up the server in your computer. The server is called Polassis Server and can be downloaded from http://polassis.pl/download/PolassisServer.jar (its source code will be published under GNU GPL v3 by the end of July 2018 if I still have access to it).
+
+### Custom commands
+**The development version**: You can add/edit/remove custom commands in the Polassis settings.
+
+**All stable and old beta releases**: You can add custom commands by saying the specific phrase, more details are available in the "Assistant possibilities" ("Możliwości asystenta" in Polish) screen in the application.
 
 ### Intents
 Polassis has a few intents which can be called externally, e.g. by Tasker or Llama:
