@@ -145,7 +145,7 @@ Jeżeli zauważyłeś, że twoja praca jest wykorzystywana w Polassisie w jakiej
 
 ### Biblioteki
 * Apache Commons IO 2.6: na [licencji Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0)
-* PocketSphinx: na licencji własnej (zobacz LICENSE w folderze pocketsphinx-android-5prealpha-nolib)
+* PocketSphinx: na [własnej licencji](https://github.com/maksgraczyk/Polassis/blob/master/pocketsphinx-android-5prealpha-nolib/LICENSE)
 * exp4j 0.4.4: na [licencji Apache 2.0](https://www.objecthunter.net/exp4j/license.html)
 
 ### Ikony
