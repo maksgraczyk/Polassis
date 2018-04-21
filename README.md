@@ -145,7 +145,7 @@ If you see that your work is used in any format in Polassis without the credit b
 
 ### Libraries
 * Apache Commons IO 2.6: under [the Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0)
-* PocketSphinx: under its license (see LICENSE in the pocketsphinx-android-5prealpha-nolib folder)
+* PocketSphinx: under [its license](https://github.com/maksgraczyk/Polassis/blob/master/pocketsphinx-android-5prealpha-nolib/LICENSE)
 * exp4j 0.4.4: under [the Apache 2.0 license](https://www.objecthunter.net/exp4j/license.html)
 
 ### Icons
