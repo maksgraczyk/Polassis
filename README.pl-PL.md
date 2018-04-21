@@ -90,3 +90,68 @@ Oto lista czynności, jakie może/mogłaby wykonać wersja rozwojowa Polassisa:
 * Wyłączanie samego asystenta (np. "zamknij się")
 * Dyktowanie do schowka (np. "podyktuj do schowka")
 * Przedstawianie możliwości Polassisa (**niezaimplementowane**)
+
+Prawie wszystkie stabilne wersje i stare wersje beta mają również możliwość "przekierowania" niektórych funkcji do komputera PC/Mac (np. jeśli chcesz sprawdzić coś na Wikipedii, Polassis może przekazać to żądanie do twojego komputera, aby mógł on otworzyć odpowiednią stronę internetową). Jeżeli chcesz skorzystać z tej opcji, musisz włączyć odpowiednią opcję w ustawieniach Polassisa i zainstalować serwer na twoim komputerze: nazywa się on Polassis Server i może zostać pobrany z http://polassis.pl/download/PolassisServer.jar (jego kod źródłowy zostanie opublikowany na licencji GNU GPL v3 do końca lipca 2018 roku, jeżeli wciąż mam dostęp do kodu).
+
+### Niestandardowe polecenia (nauka poleceń)
+**Wersja rozwojowa**: Możesz dodać/edytować/usunąć niestandardowe polecenia w ustawieniach Polassisa.
+
+**Wszystkie wersje stabilne i stare wersje beta**: Możesz dodać niestandardowe polecenia poprzez powiedzenie odpowiedniego polecenia, więcej szczegółów jest dostępnych w ekranie "Możliwości asystenta" w aplikacji.
+
+### Intenty
+Polassis ma kilka intentów (ang. "intent"), które mogą być wywołane przez aplikacje zewnętrzne, np. Tasker czy Llama:
+* Uruchomienie asystenta (bez wywołania):
+  * Typ: start activity
+  * Nazwa paczki (package name): com.mg.polassis
+  * Nazwa klasy (class name): com.mg.polassis.misc.Assistant
+  * Dodatkowe informacje (extras): brak
+* Wywołanie asystenta (uruchomienie asystenta wraz z usługą rozpoznawania mowy):
+  * Typ: start service
+  * Nazwa paczki (package name): com.mg.polassis
+  * Nazwa klasy (class name): com.mg.polassis.service.BackgroundSpeechRecognitionService
+  * Dodatkowe informacje (extras): brak
+* Wywołanie asystenta w trybie klasycznym (przez ekran główny):
+  * Typ: start activity
+  * Nazwa paczki (package name): com.mg.polassis
+  * Nazwa klasy (class name): com.mg.polassis.misc.Assistant
+  * Dodatkowe informacje (extras):
+    * Boolean: "activation" = true
+* Uruchomienie asystenta i przekazanie mu konkretnego polecenia:
+  * Typ: start activity
+  * Nazwa paczki (package name): com.mg.polassis
+  * Nazwa klasy (class name): com.mg.polassis.misc.Assistant
+  * Dodatkowe informacje (extras):
+    * String: "command" = dowolna komenda, np. "włącz YouTube"
+* Uruchomienie asystenta i przekazanie mu konkretnego polecenia z wymogiem osobnego potwierdzenia przez użytkownika:
+  * Typ: start activity
+  * Nazwa paczki (package name): com.mg.polassis
+  * Nazwa klasy (class name): com.mg.polassis.misc.Assistant
+  * Dodatkowe informacje (extras):
+    * String: "command" = dowolna komenda, np. "włącz YouTube"
+    * Boolean: "ask_for_confirmation" = true
+    
+### Rozwiązywanie problemów
+* Jeżeli przycisk mikrofonu zmieni kolor na szary i pozostanie w tym stanie:
+  * Sprawdź, czy rozpoznawanie mowy jest zainstalowane i poprawnie skonfigurowane w twoim urządzeniu. Może się okazać, że będziesz musiał przyznać usłudze rozpoznawania mowy uprawnienie nagrywania dźwięku, jeśli korzystasz z Androida 6.0+.
+  * Sprawdzenie poszczególnych opcji w ustawieniach Polassisa jest dobrym pomysłem (np. przełączenie opcji "Wymusz. silnika Google" odpowiedzialnej za wymuszenie używania silnika rozpoznawnia mowy Google).
+  * Jeżeli korzystasz z syntezy mowy, sprawdź, czy syntezator mowy jest zainstalowany i poprawnie skonfigurowany w twoim urządzeniu.
+  * Jeżeli korzystasz z Androida 6.0+, sprawdź, jakie uprawnienia Polassis ma przyznane w twoim urządzeniu.
+  
+## Język
+(w budowie)
+
+## Użyta twórczość osób trzecich
+Jeżeli zauważyłeś, że twoja praca jest wykorzystywana w Polassisie w jakiejkolwiek formie bez wspomnienia o tym poniżej, proszę dać mi znać: dodam odpowiednie uznanie. Dziękuję!
+
+### Biblioteki
+* Apache Commons IO 2.6: na [licencji Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0)
+* PocketSphinx: na licencji własnej (zobacz LICENSE w folderze pocketsphinx-android-5prealpha-nolib)
+* exp4j 0.4.4: na [licencji Apache 2.0](https://www.objecthunter.net/exp4j/license.html)
+
+### Ikony
+* [Ikona autorstwa Elegant Themes](http://www.flaticon.com/free-icon/mic_10032): na [licencji CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+* Ikony autorstwa Google: na [licencji CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+* Ikony autorstwa jxnblk: na [licencji MIT](https://opensource.org/licenses/MIT)
+
+## Licencja
+Polassis jest opublikowany na licencji GNU General Public License v3.0. Więcej szczegółów w pliku LICENSE.
