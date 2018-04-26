@@ -4,7 +4,9 @@
 Osobisty asystent głosowy dla urządzeń z Androidem. Język polski jest obecnie jedynym wspieranym językiem (zarówno w interfejsie użytkownika, jak i w rozpoznawaniu poleceń).
 
 ## Wsparcie
-Ten projekt jest w tym momencie zamrożony, w związku z czym zapewniam bardzo ograniczone wsparcie. Nie odpowiem na wiadomości e-mail z komentarzami zarówno o stabilnych, jak i rozwojowych wersjach (z wyjątkiem kwestii praw autorskich / uznania czyjejś pracy: zobacz "Użyta twórczość osób trzecich"). Jeżeli znajdziesz jakiekolwiek błędy lub masz jakiekolwiek sugestie, możesz je zaraportować w części "Issues", ale nie mogę zagwarantować odpowiedzi na raporty w rozsądnym czasie.
+Ten projekt jest w tym momencie zamrożony, w związku z czym zapewniam bardzo ograniczone wsparcie. Nie odpowiem na wiadomości e-mail z komentarzami zarówno o stabilnych, jak i rozwojowych wersjach (z wyjątkiem pilnych spraw od osób niepełnosprawnych i kwestii praw autorskich / uznania czyjejś pracy: zobacz "Użyta twórczość osób trzecich"). Jeżeli znajdziesz jakiekolwiek błędy lub masz jakiekolwiek sugestie, możesz je zaraportować w części "Issues", ale nie mogę zagwarantować odpowiedzi na raporty w rozsądnym czasie.
+
+Jeżeli chcesz się ze mną skontaktować (pamiętaj o powyższej informacji), mój adres to max.graczyk+polassis@gmail.com. Jakiekolwiek poprzednie adresy e-mail, z jakimi można było się spotkać (w domenach outlook.com i polassis.pl), **nie są już aktualne**.
 
 ## Instrukcja instalacji
 Udostępniony kod źródłowy jest najnowszą wersją **rozwojową**, która nie ma żadnych reklam ani możliwości dotacji. Proszę zwrócić uwagę na to, że błędy, puste ekrany i niedokończone funkcje są tutaj *normalne*. Jednakże, z racji tego, że celowałem w naprawienie głównych błędów występujących w najnowszej wersji stabilnej (1.0.7) przed opublikowaniem kodu źródłowego, wersja rozwojowa **może** działać lepiej na twoim urządzeniu niż wersja stabilna. Jeśli tak będzie u ciebie, to gratuluję szczęścia!
@@ -91,7 +93,7 @@ Oto lista czynności, jakie może/mogłaby wykonać wersja rozwojowa Polassisa:
 * Dyktowanie do schowka (np. "podyktuj do schowka")
 * Przedstawianie możliwości Polassisa (**niezaimplementowane**)
 
-Prawie wszystkie stabilne wersje i stare wersje beta mają również możliwość "przekierowania" niektórych funkcji do komputera PC/Mac (np. jeśli chcesz sprawdzić coś na Wikipedii, Polassis może przekazać to żądanie do twojego komputera, aby mógł on otworzyć odpowiednią stronę internetową). Jeżeli chcesz skorzystać z tej opcji, musisz włączyć odpowiednią opcję w ustawieniach Polassisa i zainstalować serwer na twoim komputerze: nazywa się on Polassis Server i może zostać pobrany z http://polassis.pl/download/PolassisServer.jar (jego kod źródłowy zostanie opublikowany na licencji GNU GPL v3 do końca lipca 2018 roku, jeżeli wciąż mam dostęp do kodu).
+Prawie wszystkie stabilne wersje i stare wersje beta mają również możliwość "przekierowania" niektórych funkcji do komputera PC/Mac (np. jeśli chcesz sprawdzić coś na Wikipedii, Polassis może przekazać to żądanie do twojego komputera, aby mógł on otworzyć odpowiednią stronę internetową). Jeżeli chcesz skorzystać z tej opcji, musisz włączyć odpowiednią opcję w ustawieniach Polassisa i zainstalować serwer na twoim komputerze: nazywa się on Polassis Server, jest to plik PolassisServer.jar (jego kod źródłowy zostanie opublikowany na licencji GNU GPL v3 do końca lipca 2018 roku, jeżeli wciąż mam dostęp do kodu).
 
 ### Niestandardowe polecenia (nauka poleceń)
 **Wersja rozwojowa**: Możesz dodać/edytować/usunąć niestandardowe polecenia w ustawieniach Polassisa.
