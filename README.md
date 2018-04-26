@@ -93,7 +93,7 @@ This is the list of activities the development version of Polassis can/could do 
 * Dictating to the clipboard (e.g. "podyktuj do schowka")
 * Presenting the possibilities of Polassis (**not implemented**)
 
-Nearly all stable and old beta releases have also a possibility to "redirect" some functions to a PC/Mac (e.g. if you want to check something on Wikipedia, Polassis can tell your computer to open the website). If you want to use that, you must trigger the appropriate option in the Polassis settings and set up the server in your computer. The server is called Polassis Server and can be downloaded from http://polassis.pl/download/PolassisServer.jar (its source code will be published under GNU GPL v3 by the end of July 2018 if I still have access to it).
+Nearly all stable and old beta releases have also a possibility to "redirect" some functions to a PC/Mac (e.g. if you want to check something on Wikipedia, Polassis can tell your computer to open the website). If you want to use that, you must trigger the appropriate option in the Polassis settings and set up the server in your computer. The server is called Polassis Server: PolassisServer.jar (its source code will be published under GNU GPL v3 by the end of July 2018 if I still have access to it).
 
 ### Custom commands
 **The development version**: You can add/edit/remove custom commands in the Polassis settings.
