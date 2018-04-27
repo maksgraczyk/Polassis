@@ -14,7 +14,7 @@ Jeżeli chcesz wnieść swój wkład do kodu, nie ma problemu: po prostu sforkuj
 **Niestety, jakikolwiek bezpośredni wkład w oryginalny kod (z wyjątkiem mojego wkładu) jest niemożliwy ze względów prawnych (chciałbym uniknąć problemów z prawami autorskimi).**
 
 ## Wsparcie
-Ten projekt jest w tym momencie zamrożony, w związku z czym zapewniam bardzo ograniczone wsparcie. Nie odpowiem na wiadomości e-mail z komentarzami zarówno o stabilnych, jak i rozwojowych wersjach (z wyjątkiem pilnych spraw od osób niepełnosprawnych i kwestii praw autorskich / uznania czyjejś pracy: zobacz "Użyta twórczość osób trzecich"). Jeżeli znajdziesz jakiekolwiek błędy lub masz jakiekolwiek sugestie, możesz je zaraportować w części "Issues", ale nie mogę zagwarantować odpowiedzi na raporty w rozsądnym czasie.
+Ten projekt jest w tym momencie zamrożony, w związku z czym zapewniam bardzo ograniczone wsparcie. Nie odpowiem na wiadomości e-mail z komentarzami zarówno o stabilnych, jak i rozwojowych wersjach (z wyjątkiem pilnych spraw od osób niepełnosprawnych i kwestii praw autorskich / uznania czyjejś pracy: zobacz "Użyta twórczość osób trzecich"). Na wszystkie inne wiadomości postaram się odpowiedzieć maksymalnie w ciągu 10 dni. Jeżeli znajdziesz jakiekolwiek błędy lub masz jakiekolwiek sugestie, możesz je zaraportować w części "Issues", ale nie mogę zagwarantować odpowiedzi na raporty w rozsądnym czasie.
 
 Jeżeli chcesz się ze mną skontaktować (pamiętaj o powyższej informacji), mój adres to max.graczyk+polassis@gmail.com. Jakiekolwiek poprzednie adresy e-mail, z jakimi można było się spotkać (w domenach outlook.com i polassis.pl), **nie są już aktualne**.
 
