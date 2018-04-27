@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_description">Rewolucyjny asystent głosowy</string>
-    <string name="app_details">Wersja: 2.0.0\n(C) 2015-2018 Maksymilian Graczyk i inni. Licencja: GNU GPL 3.0\n\nProgram wykorzystuje m.in. silnik PocketSphinx, ikonę autorstwa jxnblk na licencji MIT, bibliotekę exp4j oraz ikonę autorstwa Elegant Themes na licencji CC BY 3.0.\n\nDane pogodowe pobierane są z Dark Sky (https://darksky.net/poweredby).</string>
+    <string name="app_details">Wersja: 2.0.0\n(C) 2015-2018 Maksymilian Graczyk. Licencja: GNU GPL 3.0\n\nProgram wykorzystuje m.in. silnik PocketSphinx, ikonę autorstwa jxnblk na licencji MIT, bibliotekę exp4j oraz ikonę autorstwa Elegant Themes na licencji CC BY 3.0.\n\nDane pogodowe pobierane są z Dark Sky (https://darksky.net/poweredby).</string>
     <string name="title_settings_activity">Ustawienia</string>
     <string name="title_possibilities_activity">Możliwości asystenta</string>
     <string name="title_about_activity">O programie</string>
