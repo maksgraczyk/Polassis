@@ -8,6 +8,11 @@ A personal voice assistant for Android devices. Polish is the only supported lan
 
 Every copyrighted work included in the program is used in compliance with appropriate licenses. These works belong to their authors. Please see "Third party resources used" for details.
 
+### Contributing to the code
+If you want to contribute to the code, feel free to do so: just fork this project to your GitHub account and make appropriate changes afterwards.
+
+**Unfortunately, direct contributions to the original code (except for contributions made by myself) are not possible due to legal reasons (I would like to avoid any copyright issues).**
+
 ## Support
 This project is currently frozen. Therefore, I provide very limited support. I will not answer e-mails with comments about either stable or development versions (except for urgent issues from people with disabilities and copyright/acknowledgement issues: see "Third party resources used"). If you find any bugs or have any suggestions, feel free to report them in "Issues", but I cannot guarantee that I will respond to the reports within reasonable time.
 
