@@ -8,6 +8,11 @@ Osobisty asystent głosowy dla urządzeń z Androidem. Język polski jest obecni
 
 Każda praca chroniona prawami autorskimi uwzględniona w programie jest używana w zgodzie z odpowiednimi licencjami. Prace te należą do ich autorów. Więcej szczegółów w sekcji "Użyta twórczość osób trzecich".
 
+### Wkład do kodu
+Jeżeli chcesz wnieść swój wkład do kodu, nie ma problemu: po prostu sforkuj ten projekt na swoje konto GitHub i nanieś potem odpowiednie zmiany.
+
+**Niestety, jakikolwiek bezpośredni wkład w oryginalny kod (z wyjątkiem mojego wkładu) jest niemożliwy ze względów prawnych (chciałbym uniknąć problemów z prawami autorskimi).**
+
 ## Wsparcie
 Ten projekt jest w tym momencie zamrożony, w związku z czym zapewniam bardzo ograniczone wsparcie. Nie odpowiem na wiadomości e-mail z komentarzami zarówno o stabilnych, jak i rozwojowych wersjach (z wyjątkiem pilnych spraw od osób niepełnosprawnych i kwestii praw autorskich / uznania czyjejś pracy: zobacz "Użyta twórczość osób trzecich"). Jeżeli znajdziesz jakiekolwiek błędy lub masz jakiekolwiek sugestie, możesz je zaraportować w części "Issues", ale nie mogę zagwarantować odpowiedzi na raporty w rozsądnym czasie.
 
