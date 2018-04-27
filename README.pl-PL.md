@@ -148,7 +148,7 @@ Polassis ma kilka intentów (ang. "intent"), które mogą być wywołane przez a
 (w budowie)
 
 ## Użyta twórczość osób trzecich
-Jeżeli zauważyłeś, że twoja praca jest wykorzystywana w Polassisie w jakiejkolwiek formie bez wspomnienia o tym poniżej, proszę dać mi znać: dodam odpowiednie uznanie. Dziękuję!
+Jeżeli zauważyłeś, że twoja praca jest wykorzystywana w Polassisie w jakiejkolwiek formie bez wspomnienia o tym poniżej, proszę dać mi znać: dodam odpowiednie uznanie lub zmodyfikuję kod tak, aby twoja twórczość nie była wykorzystywana w sposób niezgodny z prawem. Dziękuję!
 
 ### Biblioteki
 * Apache Commons IO 2.6: na [licencji Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0)
