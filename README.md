@@ -3,6 +3,11 @@
 
 A personal voice assistant for Android devices. Polish is the only supported language at the moment (in both GUI and command recognition).
 
+## License
+(C) 2018 Maksymilian Graczyk. Polassis is licensed under the GNU General Public License v3.0. Please see LICENSE for details.
+
+Every copyrighted work included in the program is used in compliance with appropriate licenses. These works belong to their authors. Please see "Third party resources used" for details.
+
 ## Support
 This project is currently frozen. Therefore, I provide very limited support. I will not answer e-mails with comments about either stable or development versions (except for urgent issues from people with disabilities and copyright/acknowledgement issues: see "Third party resources used"). If you find any bugs or have any suggestions, feel free to report them in "Issues", but I cannot guarantee that I will respond to the reports within reasonable time.
 
@@ -154,6 +159,3 @@ If you see that your work is used in any format in Polassis without the credit b
 * [Icon made by Elegant Themes](http://www.flaticon.com/free-icon/mic_10032): under [the CC BY 3.0 license](https://creativecommons.org/licenses/by/3.0/)
 * Icons made by Google: under [the CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/)
 * Icons made by jxnblk: under [the MIT license](https://opensource.org/licenses/MIT)
-
-## License
-Polassis is licensed under the GNU General Public License v3.0. Please see LICENSE for details.
