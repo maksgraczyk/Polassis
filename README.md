@@ -148,7 +148,7 @@ Polassis has a few intents which can be called externally, e.g. by Tasker or Lla
 (under construction)
 
 ## Third party resources used
-If you see that your work is used in any format in Polassis without the credit below, please let me know: I will add the acknowledgement. Thank you!
+If you see that your work is used in any format in Polassis without the credit below, please let me know: I will add the acknowledgement or modify the code so that it does not use your work illegally. Thank you!
 
 ### Libraries
 * Apache Commons IO 2.6: under [the Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0)
