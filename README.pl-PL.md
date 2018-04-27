@@ -3,6 +3,11 @@
 
 Osobisty asystent głosowy dla urządzeń z Androidem. Język polski jest obecnie jedynym wspieranym językiem (zarówno w interfejsie użytkownika, jak i w rozpoznawaniu poleceń).
 
+## Licencja
+(C) 2018 Maksymilian Graczyk. Polassis jest opublikowany na licencji GNU General Public License v3.0. Więcej szczegółów w pliku LICENSE.
+
+Każda praca chroniona prawami autorskimi uwzględniona w programie jest używana w zgodzie z odpowiednimi licencjami. Prace te należą do ich autorów. Więcej szczegółów w sekcji "Użyta twórczość osób trzecich".
+
 ## Wsparcie
 Ten projekt jest w tym momencie zamrożony, w związku z czym zapewniam bardzo ograniczone wsparcie. Nie odpowiem na wiadomości e-mail z komentarzami zarówno o stabilnych, jak i rozwojowych wersjach (z wyjątkiem pilnych spraw od osób niepełnosprawnych i kwestii praw autorskich / uznania czyjejś pracy: zobacz "Użyta twórczość osób trzecich"). Jeżeli znajdziesz jakiekolwiek błędy lub masz jakiekolwiek sugestie, możesz je zaraportować w części "Issues", ale nie mogę zagwarantować odpowiedzi na raporty w rozsądnym czasie.
 
@@ -154,6 +159,3 @@ Jeżeli zauważyłeś, że twoja praca jest wykorzystywana w Polassisie w jakiej
 * [Ikona autorstwa Elegant Themes](http://www.flaticon.com/free-icon/mic_10032): na [licencji CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
 * Ikony autorstwa Google: na [licencji CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 * Ikony autorstwa jxnblk: na [licencji MIT](https://opensource.org/licenses/MIT)
-
-## Licencja
-Polassis jest opublikowany na licencji GNU General Public License v3.0. Więcej szczegółów w pliku LICENSE.
