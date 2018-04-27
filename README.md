@@ -14,7 +14,7 @@ If you want to contribute to the code, feel free to do so: just fork this projec
 **Unfortunately, direct contributions to the original code (except for contributions made by myself) are not possible due to legal reasons (I would like to avoid any copyright issues).**
 
 ## Support
-This project is currently frozen. Therefore, I provide very limited support. I will not answer e-mails with comments about either stable or development versions (except for urgent issues from people with disabilities and copyright/acknowledgement issues: see "Third party resources used"). If you find any bugs or have any suggestions, feel free to report them in "Issues", but I cannot guarantee that I will respond to the reports within reasonable time.
+This project is currently frozen. Therefore, I provide very limited support. I will not answer e-mails with comments about either stable or development versions (except for urgent issues from people with disabilities and copyright/acknowledgement issues: see "Third party resources used"). I will try to answer any other e-mails within maximum 10 days. If you find any bugs or have any suggestions, feel free to report them in "Issues", but I cannot guarantee that I will respond to the reports within reasonable time.
 
 If you want to get in touch with me directly (remember the above), my address is max.graczyk+polassis@gmail.com. Any previous e-mail addresses you might have encountered before (in the outlook.com and polassis.pl domains) are **no longer valid**.
 
