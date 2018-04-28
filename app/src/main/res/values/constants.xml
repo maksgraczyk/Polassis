@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Polassis: personal voice assistant for Android devices
+Copyright (C) 2018 Maksymilian Graczyk
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <http://www.gnu.org/licenses/>.
+-->
+
 <resources>
     <string name="darksky_api_key"><!-- NOT PROVIDED BY THE DEVELOPER --></string>
     <string name="language_page">https://raw.githubusercontent.com/maksgraczyk/Polassis/master/external_res/lang/pl-PL/</string>
     <string name="news_url">http://polassis.pl/news_s/news.dat</string>
+    <string name="version_url">http://polassis.pl/news_s/version.dat</string>
     <string name="app_name">Polassis</string>
 </resources>

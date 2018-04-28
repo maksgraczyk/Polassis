@@ -511,7 +511,7 @@ public class Assistant extends Activity implements PopupMenu.OnMenuItemClickList
                     if (newsList.size() > 0) displayMessage(newsList, 0);
                     else {
                         type = "version";
-                        NetworkHandler.query(Assistant.this, "http://polassis.pl/news_s/version.dat", "GET", DownloadData.this, null, null, null);
+                        NetworkHandler.query(Assistant.this, getString(R.string.version_url), "GET", DownloadData.this, null, null, null);
                     }
                 } catch (Exception e) {
                     if (assistantSettings.getBoolean("debug_mode", false))
