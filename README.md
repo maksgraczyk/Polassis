@@ -1,4 +1,6 @@
 # Polassis
+[Author's statement in Polish (29 April 2018) / Oświadczenie autora (29 kwietnia 2018)](https://github.com/maksgraczyk/Polassis/blob/master/STATEMENT.pl-PL.md)
+
 [Read in Polish / Przeczytaj po polsku](https://github.com/maksgraczyk/Polassis/blob/master/README.pl-PL.md)
 
 A personal voice assistant for Android devices. Polish is the only supported language at the moment (in both GUI and command recognition).
