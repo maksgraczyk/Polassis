@@ -1,4 +1,6 @@
 # Polassis
+[Oświadczenie autora (29 kwietnia 2018)](https://github.com/maksgraczyk/Polassis/blob/master/STATEMENT.pl-PL.md)
+
 [Przeczytaj po angielsku / Read in English](https://github.com/maksgraczyk/Polassis/blob/master/README.md)
 
 Osobisty asystent głosowy dla urządzeń z Androidem. Język polski jest obecnie jedynym wspieranym językiem (zarówno w interfejsie użytkownika, jak i w rozpoznawaniu poleceń).
