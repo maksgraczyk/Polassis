@@ -38,6 +38,8 @@ If you are familiar with Android programming and want to work with the source co
 (under construction)
 
 ### Pre-built releases
+**Note: All pre-built releases I have access to will have been published by 6 May 2018.**
+
 There are also pre-built releases which can be installed directly on Android devices without compiling the source code. They are available as APK files in "Releases". The development version is included. Your device must allow installing applications from unknown sources: you can change this behaviour in Android settings.
 
 ## How to use
