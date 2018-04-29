@@ -1,4 +1,4 @@
-# Oświadczenie autora Polassisa
+# Oświadczenie autora Polassisa (29 kwietnia 2018)
 
 Jak już można było wywnioskować z poprzedniego postu (na Facebooku: https://www.facebook.com/polassis.android/posts/1721585717893689), rozwój Polassisa został znacząco spowolniony z powodu braku czasu: sporo ważnych rzeczy wydarzyło się ostatnio w moim życiu, a asystent jest tylko projektem hobbystycznym rozwijanym w wolnej chwili.
 
