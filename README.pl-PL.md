@@ -38,6 +38,8 @@ Jeżeli programowanie na Androida jest tobie znajome i chcesz pracować z kodem 
 (w budowie)
 
 ### Prekompilowane wydania
+**Uwaga: Wszystkie prekompilowane (gotowe) wydania, do których mam dostęp, zostaną opublikowane do 6 maja 2018 roku.**
+
 Dostępne są również prekompilowane wydania, które mogą zostać bezpośrednio zainstalowane na urządzeniach z Androidem bez kompilowania kodu źródłowego. Można je pobrać jako pliki APK w części "Releases". Wersja rozwojowa jest tu uwzględniona. Twoje urządzenie musi zezwalać na instalację aplikacji z nieznanych źródeł: możesz zmienić to zachowanie w ustawieniach Androida.
 
 ## Jak korzystać
