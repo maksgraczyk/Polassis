@@ -1286,14 +1286,14 @@ public class Assistant extends Activity implements PopupMenu.OnMenuItemClickList
                     if (Intent.ACTION_VOICE_COMMAND.equals(intent.getAction()))
                         bundle.putBoolean("activation_via_bluetooth", true);
                 } else {
-                    long updatesLastCheckedDate = getSharedPreferences("read_news", MODE_PRIVATE).getLong("last_checked", 0);
-                    if (System.currentTimeMillis() - updatesLastCheckedDate >= 10800000)
-                        NetworkHandler.query(Assistant.this, getString(R.string.news_url), "GET", new DownloadData("news"), null, null, null);
+                    //long updatesLastCheckedDate = getSharedPreferences("read_news", MODE_PRIVATE).getLong("last_checked", 0);
+                    //if (System.currentTimeMillis() - updatesLastCheckedDate >= 10800000)
+                    //    NetworkHandler.query(Assistant.this, getString(R.string.news_url), "GET", new DownloadData("news"), null, null, null);
                 }
             } else {
-                long updatesLastCheckedDate = getSharedPreferences("read_news", MODE_PRIVATE).getLong("last_checked", 0);
-                if (System.currentTimeMillis() - updatesLastCheckedDate >= 10800000)
-                    NetworkHandler.query(Assistant.this, getString(R.string.news_url), "GET", new DownloadData("news"), null, null, null);
+                //long updatesLastCheckedDate = getSharedPreferences("read_news", MODE_PRIVATE).getLong("last_checked", 0);
+                //if (System.currentTimeMillis() - updatesLastCheckedDate >= 10800000)
+                //    NetworkHandler.query(Assistant.this, getString(R.string.news_url), "GET", new DownloadData("news"), null, null, null);
             }
 
             conversationMode = assistantSettings.getBoolean("conversation_mode", false);
