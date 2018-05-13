@@ -1,5 +1,11 @@
 # Oświadczenie autora Polassisa (29 kwietnia 2018)
 
+**Aktualizacja (13 maja 2018):**
+
+**Zauważyłem, że niektórzy nie anulowali subskrypcji nielimitowanej prognozy pogody i wciąż mają pobierane pieniądze za nią. Przypominam, że ta subskrypcja nie ma już żadnej wartości, gdyż albo funkcja pogody nie działa, albo ma usunięte ograniczenia za darmo (w zależności od wersji Polassisa).**
+
+**W związku z tym oferuję zwrot każdemu, kto nie anulował nielimitowanej prognozy pogody i zostały mu pobrane pieniądze z karty. Aby skorzystać z tej opcji, proszę o kontakt pod adresem max.graczyk+polassis (małpa) gmail.com. W treści należy podać orientacyjną datę obciążenia karty.**
+
 Jak już można było wywnioskować z poprzedniego postu (na Facebooku: https://www.facebook.com/polassis.android/posts/1721585717893689), rozwój Polassisa został znacząco spowolniony z powodu braku czasu: sporo ważnych rzeczy wydarzyło się ostatnio w moim życiu, a asystent jest tylko projektem hobbystycznym rozwijanym w wolnej chwili.
 
 Ostatnio zauważyłem też, że nie jestem w stanie samemu konkurować z asystentami tworzonymi przez większe drużyny czy duże firmy, np. Google, Apple czy Amazon. Brakuje mi też wystarczającej ilości wiedzy oraz zasobów pozwalających na znaczny rozwój Polassisa, uwzględniający np. stworzenie własnego silnika rozpoznawania mowy, co pozwoliłoby uniezależnić się od rozpoznawania mowy Google i w ten sposób sprawić, że aplikacja działałaby bez dostępu do Internetu.
