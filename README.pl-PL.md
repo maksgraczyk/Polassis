@@ -107,7 +107,7 @@ Oto lista czynności, jakie może/mogłaby wykonać wersja rozwojowa Polassisa:
 * Dyktowanie do schowka (np. "podyktuj do schowka")
 * Przedstawianie możliwości Polassisa (**niezaimplementowane**)
 
-Prawie wszystkie stabilne wersje i stare wersje beta mają również możliwość "przekierowania" niektórych funkcji do komputera PC/Mac (np. jeśli chcesz sprawdzić coś na Wikipedii, Polassis może przekazać to żądanie do twojego komputera, aby mógł on otworzyć odpowiednią stronę internetową). Jeżeli chcesz skorzystać z tej opcji, musisz włączyć odpowiednią opcję w ustawieniach Polassisa i zainstalować serwer na twoim komputerze: nazywa się on Polassis Server, jest to plik PolassisServer.jar (jego kod źródłowy zostanie opublikowany na licencji GNU GPL v3 do końca lipca 2018 roku, jeżeli wciąż mam dostęp do kodu).
+Prawie wszystkie stabilne wersje i stare wersje beta mają również możliwość "przekierowania" niektórych funkcji do komputera PC/Mac (np. jeśli chcesz sprawdzić coś na Wikipedii, Polassis może przekazać to żądanie do twojego komputera, aby mógł on otworzyć odpowiednią stronę internetową). Jeżeli chcesz skorzystać z tej opcji, musisz włączyć odpowiednią opcję w ustawieniach Polassisa i zainstalować serwer na twoim komputerze: nazywa się on Polassis Server, jest to plik PolassisServer.jar (~~jego kod źródłowy zostanie opublikowany na licencji GNU GPL v3 do końca lipca 2018 roku, jeżeli wciąż mam dostęp do kodu~~ **AKTUALIZACJA: Niestety, prawdopodobnie nie mam już dostępu do pełnego kodu źródłowego**).
 
 ### Niestandardowe polecenia (nauka poleceń)
 **Wersja rozwojowa**: Możesz dodać/edytować/usunąć niestandardowe polecenia w ustawieniach Polassisa.
