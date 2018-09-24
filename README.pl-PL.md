@@ -36,9 +36,6 @@ Jeżeli programowanie na Androida jest tobie znajome i chcesz pracować z kodem 
 3. Poczekaj aż wszystkie wymagane zasoby zostaną przygotowane.
 4. Możesz już pracować z kodem: miłej zabawy!
 
-### Bez wykorzystania Android Studio
-(w budowie)
-
 ### Prekompilowane wydania
 **AKTUALIZACJA (5 maja 2018): Wszystkie prekompilowane (gotowe) wydania, do których mam dostęp, są już dostępne do pobrania.**
 
