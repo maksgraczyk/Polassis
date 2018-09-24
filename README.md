@@ -36,9 +36,6 @@ If you are familiar with Android programming and want to work with the source co
 3. Wait until all required resources are prepared.
 4. You are ready to go: have fun!
 
-### Without Android Studio
-(under construction)
-
 ### Pre-built releases
 **UPDATE (5 May 2018): All pre-built releases I have access to can be downloaded now.**
 
